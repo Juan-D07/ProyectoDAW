@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      UT2.05 Juan Miguel Dominguez
+    </title>
+    <link rel="stylesheet" href="../../webroot/font/Roboto-VariableFont_wdth,wght.ttf">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../webroot/css/style.css">
+
+    <style>
+
+      body{
+        background-color: rgb(236, 236, 236);
+      }
+      #contenedor{
+        background-color:#fff;
+        width:400px;
+        margin: 30px auto 0px auto;
+        display: flex;
+        align-content: center;
+        padding:20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+      }
+
+      div{
+        margin: 20px;
+      }
+
+      fieldset{
+        border:none;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .trans-div{
+        margin:0px;
+        display: flex;
+        gap: 40px;
+      }
+
+      input,select,textarea{
+        border-radius: 4px;
+        border: 1px solid rgb(156, 156, 156);
+        
+      }
+
+      input[type="text"],
+      input[type="number"],
+      select{
+        padding:8px
+      }
+
+      input[type="color"]{
+        height: 50px;
+        width: 50px;
+      }
+
+      input[type="text"]:hover,
+      input[type="number"]:hover,
+      select:hover{
+        background-color: rgb(255, 255, 191);
+      }
+
+      input[type="submit"],
+      input[type="reset"]{
+        background-color: #4caf50;
+        color: white;
+        border:none;
+        padding: 10px;
+      }
+
+      textarea{
+        resize:vertical;
+        min-height: 40px;
+      }
+
+      input[type="radio"],
+      input[type="checkbox"]{
+        accent-color: #4caf50;
+        
+      }
+
+      footer{
+        margin-top: auto;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="line1">Formulario</div>
+    </header>
+
+    <main class="cuerpo-exte">
+      <div id="contenedor">
+        <form>
+          <div>
+            <label for="marca"> Marca *:</label>
+            <input type="text" id="marca" name="marca" required>
+          </div>
+          <div>
+            <label for="modelo"> Modelo *:</label>
+            <input type="text" id="modelo" name="modelo" required>
+          </div>
+          <div>
+            <label for="ano"> Año de fabricación *:</label>
+            <input type="number" id="ano" name="ano" min="1900" max="2025" required>
+          </div>
+          <div>
+            <label for="combustible"> Tipo de combustible *:</label>
+            <select name="combustible" id="combustible">
+              <option value="gasolina"> Gasolina</option>
+              <option value="dieses híbrido"> Dieses Híbrido</option>
+              <option value="electrico"> Electrico</option>
+            </select>
+          </div>
+          <div>
+            <label for="color"> Color:</label>
+            <input type="color" id="color" name="color" >
+          </div>
+          <div>
+            <label for="kilom"> Kilometraje:</label>
+            <input type="number" id="kilom" name="kilom" min="0">
+          </div>
+          <div>
+            <fieldset>
+              <label> Transmisión:</label>
+              <div class="trans-div">
+                <label for="auto"><input type="radio" name="trans" id="auto"> Automática</label>
+                <label for="manu"><input type="radio" name="trans" id="manu"> Manual</label>
+              </div>
+
+            </fieldset>
+          </div>
+          <div>
+            <label for="extras"> Extras:</label>
+            <label for="extras"><input type="checkbox" id="extras" name="extras" value="tiene_Extras"> Tiene Extras</label>
+          </div>
+          
+          <div>
+            <label for="comentario"> Comentarios Adicionales:</label>
+            <textarea name="comentario" rows="5" cols="46" placeholder="Escriba algun comentario" id="comentario"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="Enviar" id="enviar">
+            <input type="reset" value="Restablecer" id="restablecer">
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p class="derechos">
+        © 2025 DAW1. Juan Miguel Dominguez. Todos los derechos reservados.
+      </p>
+      <p class="modificacion">
+        Última modificación: 30 de enero de 2026, 09:09
+      </p>
+      <div class="botones">
+        <a class="boton2" href="../../index.html#Unidad2">
+          <img src="images/casa1.png" class="casa" alt="logo casa">
+        
+        </a>
+        <a class="boton1" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmdomper.ieslossauces.es%2Fut2%2F05%2Findex.html">
+          <img src="images/W3C®_Icon.svg.png" class="validador" alt="logo validador">
+        </a>
+        
+      </div>
+    </footer>
+    
+  </body>
+  
+</html>

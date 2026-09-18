@@ -1,0 +1,598 @@
+/*  #####################################       GENERAL CSS       #####################################  */
+body{
+  font-family: Roboto, Arial;
+  color: white;
+  background-color:rgb(0, 0, 0);
+
+  padding:63px 0 80px 130px;
+}
+
+a{
+  color: white;
+  text-decoration: solid;
+}
+
+section{
+  scroll-margin-top: 80px;
+}
+
+#home{
+  scroll-margin-top: 90px;
+}
+
+html{
+  scroll-behavior: smooth;
+} 
+.contentBody{
+  right:0;
+  padding:18px 20px 12px 20px;
+  margin-right:0;
+  background-color:rgb(18, 18, 18);
+  border-radius: 10px;
+  z-index: -100;
+}
+
+/*  #####################################       HEADER CSS       #####################################  */
+
+.header{
+  height:70px;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  left:0;
+  top:0;
+  right:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.header-left-sec{
+padding-left: 30px;
+margin-right: 70px;
+}
+
+.logo-img{
+  height:70px;
+}
+
+.header-middle-sec{
+  display: flex;
+  flex:1;
+  align-items: center;
+  max-width: 700px;
+}
+
+.casa-boton{
+  background-color: rgb(31,31,31);
+  border:none;
+  height:30px;
+  padding:12px 13px 15px 13px;
+  border-radius: 50px;
+  margin-right:6px;
+}
+
+.casa-img,
+.lupita-img,
+.browse-img{
+  height:100%;
+}
+
+.lupita-boton{
+  background-color: rgb(31,31,31);
+  border:none;
+  height:56px;
+  padding:14px 14px 13px 13px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+.searchB{
+  background-color: rgb(31,31,31);
+  border:none;
+  height:56px;
+  padding-top:6px;
+  flex:1;
+  width:0;
+  
+}
+.searchB::placeholder{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.browse-boton{
+  background-color: rgb(31,31,31);
+  border:none;
+  height:56px;
+  padding:14px 14px 13px 13px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-left-style:solid ;
+  border-left-width: 1px;
+  border-color: rgb(71, 71, 71)
+}
+
+.nombre-title{
+
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.casa-boton:hover,
+.lupita-boton:hover,
+.browse-boton:hover{
+  cursor: pointer;
+}
+
+/*  #####################################      SIDEBAR CSS      #####################################  */
+
+.sidebar{
+  width:105px;
+  position: fixed;
+  background-color: rgb(18, 18, 18);
+  left:0;
+  top:70px;
+  bottom:90px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 50;
+}
+
+.Libreria-s-img{
+  margin-top: 20px;
+  height:50px;
+  margin-bottom: 20px;
+}
+
+.Unidad1-s-img,
+.Unidad2-s-img,
+.Unidad3-s-img,
+.Unidad4-s-img,
+.Unidad5-s-img,
+.Unidad6-s-img,
+.Unidad7-s-img,
+.Unidad8-s-img{
+  margin-top: 12px;
+  height:80px;
+  border-radius: 10px;
+}
+
+.Unidad1-s-img:hover,
+.Unidad2-s-img:hover,
+.Unidad3-s-img:hover,
+.Unidad4-s-img:hover,
+.Unidad5-s-img:hover,
+.Unidad6-s-img:hover,
+.Unidad7-s-img:hover,
+.Unidad8-s-img:hover {
+  cursor: pointer;
+}
+
+.Unidad1-s-div,
+.Unidad2-s-div,
+.Unidad3-s-div,
+.Unidad4-s-div,
+.Unidad5-s-div,
+.Unidad6-s-div,
+.Unidad7-s-div,
+.Unidad8-s-div {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Unidad1-s-div .tooltip-side,
+.Unidad2-s-div .tooltip-side,
+.Unidad3-s-div .tooltip-side,
+.Unidad4-s-div .tooltip-side,
+.Unidad5-s-div .tooltip-side,
+.Unidad6-s-div .tooltip-side,
+.Unidad7-s-div .tooltip-side,
+.Unidad8-s-div .tooltip-side{
+  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 40px;
+  right: -100px;
+  bottom: -12px;
+  padding:3px 6px;
+  border-radius: 5px;
+  background-color: rgb(83, 83, 83);
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+.Unidad8-s-div .tooltip-side{
+  right: -115px;
+}
+
+.Unidad1-s-div:hover .tooltip-side,
+.Unidad2-s-div:hover .tooltip-side,
+.Unidad3-s-div:hover .tooltip-side,
+.Unidad4-s-div:hover .tooltip-side,
+.Unidad5-s-div:hover .tooltip-side,
+.Unidad6-s-div:hover .tooltip-side,
+.Unidad7-s-div:hover .tooltip-side,
+.Unidad8-s-div:hover .tooltip-side{
+  opacity:1;
+}
+/*  ###################################       PLAYBAR CSS       ###################################  */
+
+.playbar{
+  position: fixed;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left:0;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+  height: 80px;
+}
+
+.playbar-left-div{
+  display: flex;
+  align-items: center;
+  flex:1;
+}
+
+.playbar-img{
+  width:66px;
+  margin:0 10px;
+  border-radius: 4px;
+}
+
+.playbar-song-txt{
+  display: flex;
+  flex-direction: column;
+  gap:4px
+}
+
+.playbar-song-name{
+  font-size: 14px;
+}
+.playbar-song-author{
+  font-size: 12px;
+  color: rgb(201, 201, 201);
+}
+
+.playbar-mid-div{
+  flex:1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:10px;
+  margin-left:1fr;
+  margin-right:2fr;
+}
+
+.playbar-upper-mid{
+  display: flex;
+  align-items: center;
+  height:30px;
+  gap:20px;
+}
+
+#boton-prev{
+  height:90%;
+  background-color: black;
+  border:none;
+}
+
+#boton-prev-img{
+  height:90%;
+}
+#boton-pause{
+  height:120%;
+  border:none;
+  border-radius: 20px;
+  background-color:white;
+  padding:10px;
+}
+
+#boton-pause-img{
+  height:100%;
+}
+#boton-next{
+  height:90%;
+  background-color: black;
+  border:none;
+}
+
+#boton-next-img{
+  height:90%;
+}
+
+.playbar-lower-mid{
+  display: flex;
+  gap:10px;
+
+}
+
+
+#playbar-time-start,
+#playbar-time-end{
+  color: rgb(201, 201, 201);
+  font-size: 14px;
+}
+
+.playbar-right-div{
+  flex:1;
+  justify-items: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#boton-mute{
+  width:46px;
+  background-color: black;
+  border:none;
+  height:28px;
+  margin-right: 10px;
+  justify-content: flex-start;
+  display: flex;
+
+}
+
+#boton-mute-img{
+  height:28px;
+  width:28px;
+}
+
+.playbar button:hover{
+  cursor: pointer;
+}
+
+/*  ###################################       RECOMENDED CSS       ###################################  */
+
+.acceso-rapido-txt{
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 0px;
+}
+.Recomended-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 12px;
+}
+
+@media (min-width:850px) and (max-width: 1060px){
+  .Recomended-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width:620px) and (max-width: 850px){
+  .Recomended-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 620px){
+  .Recomended-grid{
+    grid-template-columns: 1fr ;
+  }
+}
+
+.recomended-div{
+  display: grid;
+  grid-template-columns: 120px 1fr;
+}
+
+.recomended-img{
+  height:100%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.recmoended-title{
+  background-color: rgba(56, 56, 56);
+  align-content: center;
+  padding-left:10px;
+  font-weight: 700;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.recomended-div:hover .recmoended-title{
+  background-color: rgb(100, 100, 100);
+}
+
+.recomended-div:hover{
+  cursor: pointer;
+}
+
+/*  #####################################       UNIDADES CSS       #####################################  */
+
+.Unidad-txt{
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.Unidad-grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+  column-gap: 10px;
+}
+
+
+@media (max-width: 590px){
+  .Unidad-grid{
+    grid-template-columns: 200px ;
+  }
+}
+
+@media (min-width:591px) and (max-width: 800px){
+  .Unidad-grid{
+    grid-template-columns: 200px 200px ;
+  }
+}
+
+@media (min-width:801px) and (max-width: 1010px){
+  .Unidad-grid{
+    grid-template-columns: 200px 200px 200px ;
+  }
+}
+
+@media (min-width:1011px) and (max-width: 1220px){
+  .Unidad-grid{
+    grid-template-columns: 200px 200px 200px 200px;
+  }
+}
+
+@media (min-width:1221px) and (max-width: 1440px){
+  .Unidad-grid{
+    grid-template-columns: 200px 200px 200px 200px 200px;
+  }
+}
+
+@media (min-width:1441px) and (max-width: 1660px){
+  .Unidad-grid{
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  }
+}
+
+@media (min-width:1661px) and (max-width: 1880px){
+  .Unidad-grid{
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+  }
+}
+
+@media (min-width:1881px) and (max-width: 2100px){
+  .Unidad-grid{
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
+  }
+}
+
+.ejercicio-div{
+  display:flex;
+  flex-direction: column;
+  padding:6px 6px 8px 6px;
+  border-radius: 6px;
+  position:relative;
+}
+
+.ejercicio-grid-subtitle {
+  border-radius: 6px;
+  position: relative
+}
+
+.ejercicio-grid-subtitle .ejercicio-div{
+  padding-bottom: 0;
+}
+
+.ejercicio-img{
+  height:100%;
+  width:100%;
+  border-radius: 10px;
+}
+
+.ejercicio-subtitle{
+  padding-left: 5px;
+  padding-bottom: 8px;
+  display: flex;
+}
+
+.subtitle-coma{
+  color: rgb(167, 167, 167);
+  font-size: 14px;
+}
+
+.subtitle-link{
+  color: rgb(167, 167, 167);
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.subtitle-link:hover{
+  text-decoration: underline;
+}
+
+.ejercicio-title{
+  font-weight: 400;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 15px;
+}
+
+.ejercicio-div:hover, .ejercicio-grid-subtitle:hover{
+  cursor: pointer;
+  background-color: rgb(49, 49, 49);
+}
+
+
+
+.play-tooltip{
+  position:absolute;
+  background-color: rgb(1, 204, 1);
+  height:20px;
+  width:20px;
+  padding:15px;
+  border-radius: 80px;
+  bottom: 36px;
+  right:12px;
+  box-shadow: 0px 7px 15px rgb(0, 0, 0);
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+.ejercicio-div:hover .play-tooltip{
+  opacity:1;
+}
+
+.play-img{
+  margin-left: 2px;
+  height:100%;
+}
+
+/*  ######################################       FOOTER CSS       ######################################  */
+
+.footer{
+  background-color: rgb(0, 0, 0);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.derechos-txt,
+.modificacion-txt{
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.spotify-img,
+.validador-img,
+.github-img,
+.rss-img{
+  height:100%;
+}
+
+.links-imagen-div{
+  margin-top: 20px;
+  padding-left: 30px;
+  display: flex;
+  height:50px;
+}
+
+span a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tiendaJuegos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:annotation>
+                    <xs:appinfo>
+                        Una tienda de video juegos exclusivamente de consolas
+                    </xs:appinfo>
+                </xs:annotation>
+                <xs:element name="juego" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="nombre" >
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:maxLength value="30"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="desarrolladora">
+                                <xs:complexType mixed="true">
+                                    <xs:attribute name="region" use="optional">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:enumeration value="Japon"/>
+                                                <xs:enumeration value="Londres"/>
+                                                <xs:enumeration value="Toronto"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fechaLanzamiento">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="anio" type="xs:gYear"/>
+                                        <xs:element name="mes" type="xs:gMonth" minOccurs="0"/>
+                                        <xs:element name="dia" type="xs:gDay" minOccurs="0"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="motorGrafico">
+                                <xs:complexType>
+                                    <xs:choice>
+                                        <xs:element name="unreal">
+                                            <xs:complexType>
+                                                <xs:attribute name="generacion" use="required" type="xs:integer">
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="unity">
+                                            <xs:complexType>
+                                                <xs:attribute name="generacion" use="required" type="xs:integer">
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="rage">
+                                            <xs:complexType>
+                                                <xs:attribute name="generacion" use="required" type="xs:integer">
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="plataforma">
+                                <xs:complexType>
+                                    <xs:attribute name="tipo" use="required" type="xs:string">
+                                    </xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="website" type="xs:string"/>
+                        </xs:all>
+                        <xs:attribute name="idJuego" type="xs:ID" use="required"/>
+                        <xs:attribute name="juegoPrecuela" type="xs:IDREF" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

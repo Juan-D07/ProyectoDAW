@@ -1,0 +1,38 @@
+programingLanguges{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    border: 1px solid red;
+    padding:6px;
+    border-radius: 10px;
+}
+
+languaje{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex:1;
+}
+
+description{
+    color: red;    
+    font-size:  1.3em; 
+    text-align: center;
+    border: 1px solid greenyellow;
+     
+}
+
+example{
+    background-color: gray;
+    white-space: pre;
+    padding-right: 10px;
+
+}
+
+example::after{
+    content: '\A';
+    white-space: pre;
+}
+
+
+

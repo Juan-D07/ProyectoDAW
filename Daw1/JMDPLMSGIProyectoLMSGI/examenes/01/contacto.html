@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EX01 - Juan Miguel Dominguez </title>
+		<link rel="icon" href="webroot/favicon/favicon-32x32.png" type="image/png">
+		<link rel="stylesheet" href="webroot/css/estilos.css">
+		<style>
+
+      body{
+        height:100vh;
+        display:flex;
+        flex-direction: column;
+      }
+
+      form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:600px;
+        margin: 20px auto 0px auto;
+      }
+
+      div{
+        width:100%;
+        margin:10px 0px
+      }
+
+      legend{
+        margin-bottom: 4px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea{
+        width: 96%;
+        border:none;
+        padding:10px;
+        background-color: black;
+        border-bottom: 1px solid red;
+        color: white;
+      }
+
+      textarea{
+        height: 300px;
+        
+      }
+
+      input[type="submit"]{
+        background-color: red;
+        border: none;
+        height:30px;
+        width:100%;
+        color: white;
+        font-size: 16px;
+        font-weight: 600px;
+      }
+
+      input[type="submit"]:hover{
+        cursor: pointer;
+        background-color: rgb(172, 0, 0);
+      }
+
+      footer{
+        margin-top: auto;
+      }
+
+		</style>
+
+	</head>
+<body>
+		<header id="home">
+			<img class="logo" alt="logo" src="webroot/logo/logo.png">
+      <nav>
+        <ul>
+          <li> <a href="./index.html#home"> Inicio </a></li>
+          <li> <a href="./index.html#cartelera"> Cartelera </a></li>
+          <li> <a href="./index.html#eventos"> Eventos </a></li>
+          <li> <a href="./index.html#proximamente"> Próximamente </a></li>
+          <li> <a href="#contacto"> Contacto </a></li>
+        </ul>
+      </nav>
+		</header>
+		<main id="contacto">
+      <section>
+        <h2>
+            Qué podemos hacer por tí
+        </h2>
+        <form>
+
+          <div>
+            <legend for="idnombre">Tu Nombre</legend>
+            <input type="text" name="nombre" id="idnombre" maxlength="400" required>
+          </div>
+          <div>
+            <legend for="idemail">Tu E-mail</legend>
+            <input type="email" name="email" id="idemail" maxlength="400" required>
+          </div>
+          <div>
+            <legend for="idasunto">Asunto</legend>
+            <input type="text" name="asunto" id="idasunto" maxlength="400">
+          </div>
+
+          <div>
+            <legend for="idmensaje">Tu Mensaje</legend>
+            <textarea name="asunto" id="idmensaje" placeholder="" maxlength="4000" required></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" id="idenviar">
+          </div>
+        </form>
+      
+
+      </section>
+		</main>
+		<footer>
+
+      <address>  
+				<p class="foo-txt">
+					© 2026 <span ><a class="miweb-link" href="../../index.html" >Juan Miguel Dominguez</a></span> Todos los derechos reservados.
+        </p>
+
+      </address>
+		</footer>
+	</body>
+
+</html>

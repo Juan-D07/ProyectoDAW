@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiendaJuegos SYSTEM "01.dtd">
+
+<tiendaJuegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01.xsd">
+    <juego idJuego="j1" juegoPrecuela="j4">
+        <nombre> Grand Theft Auto 6</nombre>
+        <desarrolladora region="Londres"> Rockstar</desarrolladora>
+        <fechaLanzamiento>
+            <anio>2026</anio>
+            <mes>--06</mes>
+        </fechaLanzamiento>
+        <motorGrafico>
+            <rage generacion="9" />
+        </motorGrafico>
+        <plataforma tipo="consola" />
+        <website>https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI</website>
+    </juego>
+    <juego idJuego="j2">
+        <nombre> Resident Evil Reqiuem</nombre>
+        <desarrolladora region="Japon"> Capcom</desarrolladora>
+        <fechaLanzamiento>
+            <anio>2026</anio>
+            <mes>--02</mes>
+            <dia>---09</dia>
+        </fechaLanzamiento>
+        <motorGrafico>
+            <unreal generacion="5" />
+        </motorGrafico>
+        <plataforma tipo="consola" />
+        <website>https://en.wikipedia.org/wiki/Resident_Evil_Requiem</website>
+    </juego>
+    <juego idJuego="j3">
+        <nombre> God of War </nombre>
+        <desarrolladora region="Toronto"> Santa Monica</desarrolladora>
+        <fechaLanzamiento>
+            <anio>2018</anio>
+        </fechaLanzamiento>
+        <motorGrafico>
+            <unity generacion="3" />
+        </motorGrafico>
+        <plataforma tipo="consola" />
+        <website>https://en.wikipedia.org/wiki/God_of_War_(2018_video_game)</website>
+    </juego>
+    <juego idJuego="j4">
+        <nombre> Grand Theft Auto 5</nombre>
+        <desarrolladora region="Londres"> Rockstar</desarrolladora>
+        <fechaLanzamiento>
+            <anio>2013</anio>
+        </fechaLanzamiento>
+        <motorGrafico>
+            <rage generacion="7" />
+        </motorGrafico>
+        <plataforma tipo="consola" />
+        <website>https://en.wikipedia.org/wiki/Grand_Theft_Auto_V</website>
+    </juego>
+</tiendaJuegos>

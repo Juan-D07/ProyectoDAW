@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>02 Juan Miguel Dominguez</title>
+
+  <link rel="stylesheet" href="webroot/css/sytle.css">
+  <script src="webroot/scripts/script.js" defer></script>
+</head>
+
+<body id="b">
+  <main class="contenedor">
+    <section class="crear-sec">
+      <h3>
+        Crear Tarjetas
+      </h3>
+
+      <div id="errorDiv"> </div>
+      
+      <div class="input-div">
+        <label for="titulo" > Titulo</label>
+        <input type="text" id="titulo" placeholder="Ej: ProyectoA, ..."  required>
+      </div>
+
+      <div class="input-div">
+        <label for="descr"> Descripción</label>
+        <textarea name="descr" rows="2" cols="46" placeholder="Breve descripción" id="descr" required></textarea>
+      </div>
+      <div class="btn-div">
+        <button value="Crear" id="enviar" class="boton" >Crear</button>
+        
+        <button id="tema" class="boton">Tema app: Claro/Oscuro </button>
+        <button id="borrar" class="boton">Borrar Todas</button>
+      </div>
+      
+
+    </section>
+
+    <section class="display-sec">
+      <h3>
+        Tarjetas creadas
+      </h3>
+
+      <div id="tarjetas-display">
+        
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      <p class="foo-txt">
+        © 2026 <span ><a class="miweb-link" href="../../index.html" >Juan Miguel Dominguez</a></span> Todos los derechos reservados.
+      </p>
+    </address>
+  </footer>
+
+</body>
+
+</html>

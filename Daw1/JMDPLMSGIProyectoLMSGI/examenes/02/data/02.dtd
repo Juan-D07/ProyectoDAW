@@ -1,0 +1,36 @@
+<!-- ===========================================
+     DTD para tarjeta de visita
+     Versión: 1.0
+     =========================================== -->
+
+<!-- ELEMENTO RAÍZ -->
+<!ELEMENT tarjetaVisita (nombre, cargo, empresa, logotipo?, web?, redesSociales?)>
+<!ATTLIST tarjetaVisita id ID #IMPLIED
+                         xmlns:xsi CDATA #IMPLIED
+                         xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+                         version CDATA "1.0">
+
+<!-- ===========================================
+     DATOS PRINCIPALES
+     =========================================== -->
+
+     <!ELEMENT nombre (#PCDATA)>
+     <!ELEMENT cargo (#PCDATA)>
+     <!ELEMENT empresa (#PCDATA)>
+
+<!-- ===========================================
+     INFO WEB Y REDES
+     =========================================== -->
+
+     <!ELEMENT logotipo (#PCDATA)>
+     <!ATTLIST logotipo formato (png |jpg |svg |webp) "png"
+                         descripcion CDATA #IMPLIED>
+     
+     <!ELEMENT web (#PCDATA)>
+     
+     <!ELEMENT redesSociales (linkedin?, otro*)>
+     <!ELEMENT linkedin (#PCDATA)>
+     <!ELEMENT otro (#PCDATA)>
+     
+     <!ELEMENT otro (#PCDATA)>
+     <!ATTLIST otro tipo CDATA #REQUIRED>

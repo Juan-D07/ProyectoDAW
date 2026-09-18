@@ -1,0 +1,56 @@
+.body-estilo {
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+
+/* Título */
+.titulo-estilo {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  
+}
+
+/*  Párrafos */
+.parrafo-base {
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.parrafo-1 {
+  color: #e74c3c;
+  background-color: #ffe6e6;
+  border-color: #c0392b;
+}
+
+.parrafo-2 {
+  color: #2ecc71;
+  background-color: #eaffea;
+  border-color: #27ea60;
+}
+
+.parrafo-3 {
+  color: #3498db;
+  background-color: #e6f2ff;
+  border-color: #2980b9;
+  
+}
+
+footer{
+  padding-top: 10px;
+  border-top: 1px solid black;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+
+.botones{
+  height:50px;
+}
+
+.boton{
+  height: 100%;
+}
+

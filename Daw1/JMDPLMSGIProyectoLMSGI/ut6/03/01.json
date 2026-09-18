@@ -1,0 +1,41 @@
+{
+    
+    "Nombre_del_euipo": "Los Angeles Laker",
+    "Color_de_la_equipacion": "Amarillo con Violeta",
+    "Nombre_Estadio": "Crypto.com Arena",
+    "Nombre_del_Entrenador": "JJ Redick",
+    "Plantilla_Historica":false,
+    "Pagina_Web": "https://www.nba.com/lakers/",
+    "jugadores":{
+        "base":[
+            {
+            "nombre":"Deandre Ayton",
+            "dorsal":5
+            },
+            {
+            "nombre":"Jaxson Hayes",
+            "dorsal":11
+            }
+        ],
+        "alero":[
+            {
+            "nombre":"LeBron James",
+            "dorsal":23
+            },
+            {
+            "nombre":"Rui Hachimura",
+            "dorsal":28
+            }
+        ],
+        "pivote":[
+            {
+            "nombre":"Luka Doncic",
+            "dorsal":77
+            },
+            {
+            "nombre":"Bronny James",
+            "dorsal":9
+            }
+        ]
+    }
+}

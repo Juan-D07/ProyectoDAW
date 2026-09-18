@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actividades>
+    <actividad nivel="infantil">
+        <codigo>C01</codigo>
+        <titulo>Descubrimiento acuático</titulo>
+        <fecha_inicio>2019-01-10</fecha_inicio>
+        <sesiones intensidad="suave">
+            <minutos_sesion>30</minutos_sesion>
+            <sesiones_semana>2</sesiones_semana>
+        </sesiones>
+    </actividad>
+
+    <actividad nivel="juvenil">
+        <codigo>C02</codigo>
+        <titulo>Natación técnica</titulo>
+        <fecha_inicio>2019-02-05</fecha_inicio>
+        <sesiones intensidad="moderada">
+            <minutos_sesion>55</minutos_sesion>
+            <sesiones_semana>3</sesiones_semana>
+        </sesiones>
+    </actividad>
+
+    <actividad nivel="adultos">
+        <codigo>C03</codigo>
+        <titulo>Entrenamiento funcional acuático</titulo>
+        <fecha_inicio>2019-03-12</fecha_inicio>
+        <sesiones intensidad="fuerte">
+            <minutos_sesion>60</minutos_sesion>
+            <sesiones_semana>4</sesiones_semana>
+        </sesiones>
+    </actividad>
+
+    <actividad nivel="adultos">
+        <codigo>C04</codigo>
+        <titulo>Rehabilitación en piscina</titulo>
+        <fecha_inicio>2019-04-01</fecha_inicio>
+        <sesiones intensidad="suave">
+            <minutos_sesion>40</minutos_sesion>
+            <sesiones_semana>3</sesiones_semana>
+        </sesiones>
+    </actividad>
+
+    <actividad nivel="infantil">
+        <codigo>C05</codigo>
+        <titulo>Juegos y coordinación en el agua</titulo>
+        <fecha_inicio>2019-05-20</fecha_inicio>
+        <sesiones intensidad="moderada">
+            <minutos_sesion>45</minutos_sesion>
+            <sesiones_semana>2</sesiones_semana>
+        </sesiones>
+    </actividad>
+
+    <actividad nivel="juvenil">
+        <codigo>C06</codigo>
+        <titulo>Salvamento acuático básico</titulo>
+        <fecha_inicio>2019-06-15</fecha_inicio>
+        <sesiones intensidad="fuerte">
+            <minutos_sesion>50</minutos_sesion>
+            <sesiones_semana>3</sesiones_semana>
+        </sesiones>
+    </actividad>
+
+    <actividad nivel="adultos">
+        <codigo>C07</codigo>
+        <titulo>Aqua yoga</titulo>
+        <fecha_inicio>2019-07-10</fecha_inicio>
+        <sesiones intensidad="suave">
+            <minutos_sesion>35</minutos_sesion>
+            <sesiones_semana>2</sesiones_semana>
+        </sesiones>
+    </actividad>
+
+    <actividad nivel="adultos">
+        <codigo>C08</codigo>
+        <titulo>Resistencia y cardio en agua</titulo>
+        <fecha_inicio>2019-08-25</fecha_inicio>
+        <sesiones intensidad="fuerte">
+            <minutos_sesion>65</minutos_sesion>
+            <sesiones_semana>4</sesiones_semana>
+        </sesiones>
+    </actividad>
+</actividades>

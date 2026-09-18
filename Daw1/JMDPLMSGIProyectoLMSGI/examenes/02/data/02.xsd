@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- ===========================================
+     Schema XML para tarjeta de visita
+     Versión: 1.0
+     =========================================== -->
+
+
+    <xs:element name="tarjetaVisita">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"/>
+                <xs:element name="cargo" type="xs:string"/>
+                <xs:element name="empresa" type="xs:string"/>
+
+                <xs:element name="logotipo" minOccurs="0">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="formato" type="xs:string" default="png" use="optional"/>
+                        <xs:attribute name="descripcion" type="xs:string" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="logotipo" minOccurs="0">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:anyURI">
+                                <xs:attribute name="formato" default="png" use="optional">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="png"/>
+                                            <xs:enumeration value="jpg"/>
+                                            <xs:enumeration value="svg"/>
+                                            <xs:enumeration value="webp"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="descripcion" type="xs:string" use="optional"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="web" type="xs:string" minOccurs="0"/>
+                <xs:element name="redesSociales" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="linkedin" type="xs:string" minOccurs="0"/>
+                            <xs:element name="otro" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType >
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:anyURI">
+                                            <xs:attribute name="tipo" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+           
+            <xs:attribute name="id" type="xs:ID" use="optional"/>
+            <xs:attribute name="version" type="xs:string" use="optional" default="1.0"/>
+
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,15 @@
+
+
+
+for $x in doc('grupos')/mundial_2026/grupos/grupo
+
+
+
+where $x/@id="H"
+
+
+return $x/equipo
+
+
+
+             

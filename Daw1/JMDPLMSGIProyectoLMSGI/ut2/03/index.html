@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      UT2.02 Juan Miguel Dominguez
+    </title>
+    <link rel="stylesheet" href="../../webroot/font/Roboto-VariableFont_wdth,wght.ttf">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../webroot/css/style.css">
+
+    <style>
+      body{
+        display: flex;
+        flex-direction: column;
+      }
+      p,div{
+        font-family: Roboto, Arial;
+        margin:0;
+      }
+
+      .header{
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        padding:15px
+      }
+
+      ul{
+        padding-top: 14px;
+        color:white;
+        list-style: none;
+        display: flex;
+        gap: 50px;
+      }
+
+      li a{
+        color:white;
+        text-decoration: none;
+      }
+
+      li a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+      .line1{
+        color: White;
+        background-color: seagreen ;
+        padding: 5px;
+        font-weight:700;
+        font-size:36px;
+        border-radius: 10px;
+      }
+
+
+      .cuerpo-exte{
+        display: flex;
+        background-color: #F2F2F2;
+        flex-direction: column;
+        
+
+      }
+      .cuerpo{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        padding:30px;
+        border-radius: 10px;
+        margin:20px 200px 20px 200px;
+      }
+
+      h3{
+        font-size: 28px;
+        text-align: center;
+      }
+
+      .contenido{
+        display: flex;
+        flex-direction: row;
+        gap:30px;
+      }
+      article{
+        display:flex;
+        flex-direction: column;
+        flex:1;
+        text-align: center;
+        gap:10px;
+      }
+
+      h4{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      h5{
+        font-size: 16px;
+      }
+
+      figure a img{
+        width:100%;
+        border-radius: 10px;
+      }
+
+      address{
+        color: rgb(78, 78, 78);
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="line1">Benavente y Comarca al Día</div>
+      <ul>
+        <li > <a href="#local">Local</a></li>
+        <li > <a href="#naci">Nacinal</a></li>
+        <li > <a href="#inter">Internacional</a></li>
+      </ul>
+    </header>
+
+    <main class="cuerpo-exte">
+      <section class="cuerpo" id="local">
+        <h3>Local</h3>
+        <div class="contenido">
+          <article>
+            <header>
+              <h4>Un red fotovoltaica de 150 módulos suministrará energía al Centro de Especialidades de Benavente</h4>
+              <h5>El objetivo es que este inmueble genere su suministro eléctrico a través de su cubierta</h5>
+            </header>
+            <blockquote cite="https://interbenavente.es/art/63785/un-red-fotovoltaica-de-150-modulos-suministrara-energia-al-centro-de-especialidades-de-benavente">
+              <figure>
+                  <a href="./images/local1.jpg">
+                      <img src="./images/local1.jpg" alt="Una imagen sobre el centro de especialidades">
+                  </a>
+                  <figcaption>El centro de especialidades de Benavente</figcaption>
+              </figure>
+              <p>La Plataforma de contratación del sector público recogía la licitación publicada por el
+                  <mark>Ente
+                      Regional de la Energía de Castilla y León</mark> para la instalación solar fotovoltaica
+                  para
+                  autoconsumo en el
+                  Centro de Especialidades y Centro de Salud Benavente Norte con un presupuesto inicial de
+                  <strong>95.004,7 euros</strong> (78.515,76 euros sin <abbr title="Impuesto sobre el Valor Añadido">IVA</abbr> incluido) y un plazo de ejecución de
+                  cuatro meses.
+              </p>
+            </blockquote>
+            <footer>
+              <address>Rebeca Castaño</address>
+            </footer>
+          </article>
+          <article>
+            <header>
+              <h4>El Ayuntamiento de Benavente inicia el proceso para resolver el contrato de obra de la rehabilitación del Depósito de la Mota</h4>
+              <h5>El plazo de este proyecto finalizaba el 12 de octubre de 2025 tras hacer concedido una prórroga de cuatro meses</h5>
+            </header>
+            <blockquote cite="https://interbenavente.es/art/63784/ayuntamiento-benavente-inicia-resolucion-contrato-rehabilitacion-deposito-mota">
+                <figure>
+                    <a href="./images/local2.jpg"><img src="./images/local2.jpg" alt="imagen del deposito de la mota de beanvente"></a>
+
+                    <figcaption>imagen del deposito de la mota de beanvente</figcaption>
+                </figure>
+                <p>A través de la Junta de Gobierno Local celebrada el
+                    pasado 28 de septiembre se aproaba el inicio del expediente de resolución
+                    del contrato de obra de <mark><em>“Rehabilitación del Depósito de la Mota”</em></mark> cuyo
+                    proyecto
+                    formaba parte del Plan de Sostenibilidad Turística en Destino 2021 para convertirlo en un
+                    mirador por un importe total de 572.163,44 euros (IVA incluido).</p>
+            </blockquote>
+            <footer>
+              <address>Rebeca Castaño</address>
+            </footer>
+          </article>
+        </div>
+      </section>
+      <section class="cuerpo" id="naci">
+        <h3>Nacional</h3>
+        <div class="contenido">
+          <article>
+            <header>
+              <h4>El Supremo rechaza devolver a Koldo sus dispositivos</h4>
+              <h5>El instructor del caso recuerda al ex asesor ministerial que la próxima semana podrá ofrecer su "hipótesis"</h5>
+            </header>
+            <blockquote cite="https://www.diariodeburgos.es/noticia/z21a947cd-1da0-4f93-a88963569589b2f8/202510/el-supremo-rechaza-devolver-a-koldo-sus-dispositivos">
+                <figure>
+                    <a href="./images/nacional1.jpg">
+                        <img src="./images/nacional1.jpg" alt="Una imagen sobre el instructor del caso Koldo">
+                    </a>
+                    <figcaption>El supremo rechaza devolver a Koldo sus dispositivos</figcaption>
+                </figure>
+                <p>
+                    El instructor del <mark>'caso Koldo'</mark> en el Tribunal Supremo (TS), Leopoldo Puente, ha
+                    rechazado la
+                    última petición del ex asesor ministerial Koldo García para que le devolvieran sus
+                    dispositivos,
+                    incidiendo en que el análisis de la "ingente cantidad de documentación" continúa,
+                    al tiempo que le ha recordado que el próximo <time datetime="2025-10-16">16 de
+                        octubre</time> podrá ofrecer "cualquier
+                    explicación
+                    o hipótesis alternativa".</p>
+            </blockquote>
+            <footer>
+              <address>Diario de Burgos</address>
+            </footer>
+          </article>
+          <article>
+            <header>
+              <h4>Almeida apunta al sobrepeso en la última planta como causa del derrumbe pero la empresa niega que se trabajara en la cubierta</h4>
+              <h5>Los cuerpos de los cuatro fallecidos en el colapso del edificio en el centro de Madrid han sido rescatados aunque quedan por confirmar dos de sus identidades</h5>
+            </header>
+            <blockquote cite="https://elpais.com/espana/madrid/2025-10-08/cuatro-cuerpos-bajo-toneladas-de-escombros-recuperados-los-cuerpos-de-los-fallecidos-en-el-derrumbe-del-edificio-en-obras-del-centro-de-madrid.html">
+                <figure>
+                    <a href="./images/nacional2.jpg">
+                        <img src="./images/nacional2.jpg" alt="Una imagen sobre el instructor del caso Koldo">
+                    </a>
+                    <figcaption>imagen del edificio deruido de madrid</figcaption>
+                </figure>
+                <p>
+                    Los <small>bomberos</small> han dado por finalizadas en la madrugada de este miércoles, sobre las 2.26, las 
+                    labores de rescate en el edificio <s>derrumbado</s> en el centro de Madrid,
+                    después de <q>recuperar</q> los cuerpos sin vida de las dos personas que permanecían desaparecidas.                
+                </p>
+            </blockquote>
+            <footer>
+              <address>Patricia Ortega Dolz, Elena Reina, Álvaro Sánchez-Martín</address>
+            </footer>
+          </article>
+        </div>
+      </section>
+      <section class="cuerpo" id="inter">
+        <h3>Internacional</h3>
+        <div class="contenido">
+          <article>
+            <header>
+              <h4>OpenAI ultima el lanzamiento de una red social de vídeos generados por IA similar a TikTok</h4>
+              <h5>Los usuarios no podrán subir material propio, solo el creado con Sora 2</h5>
+            </header>
+            <blockquote cite="https://elpais.com/tecnologia/2025-09-30/openai-ultima-el-lanzamiento-de-una-red-social-de-videos-generados-por-ia-similar-a-tiktok.html">
+              <figure>
+                  <a href="./images/internacional1.jpg">
+                      <img src="./images/internacional1.jpg" alt="Una imagen de un movil enseñando la nueva IA Sora2">
+                  </a>
+                  <figcaption>Sora2 la nueva IA</figcaption>
+              </figure>
+              <p>
+                  <mark>OpenAI</mark> quiere dar su paso más ambicioso en el terreno de las plataformas de
+                  contenido
+                  social. La
+                  compañía dirigida por Sam Altman prepara el lanzamiento de una aplicación al
+                  estilo de <mark>TikTok</mark>, pero con una diferencia fundamental: <strong>todo el
+                      contenido será generado por
+                      inteligencia artificial</strong> a través de su modelo más reciente: Sora 2.
+                  No habrá vídeos reales, solo clips sintéticos diseñados por usuarios mediante
+                  <em>prompts</em>, la
+                  instrucción que se le da a una IA para que genere un contenido específico.
+              </p>
+          </blockquote>
+            <footer>
+              <address>Selva Vargas Reátegui</address>
+            </footer>
+          </article>
+          <article>
+            <header>
+              <h4>Putin asegura que Rusia ha capturado 5.000 kilómetros cuadrados en Ucrania este año</h4>
+              <h5>Las unidades de defensa aéreas rusas frenan la entrada de 184 drones ucranianos. Uno de ellos, según el alcalde de Moscú, Sergei Sobyanin, se dirigía a la capital rusa. Ucrania neutralizó también durante la pasada noche 88 drones de larga distancia y dos misiles balísticos rusos</h5>
+            </header>
+            <blockquote cite="https://www.elmundo.es/internacional/2025/10/07/68e4a154a75cca8941c97df1-directo.html">
+                <figure>
+              <figure>
+                  <a href="./images/internacional2.jpg">
+                      <img src="./images/internacional2.jpg" alt="Una imagen de un movil enseñando la nueva IA Sora2">
+                  </a>
+                  <figcaption>Imagen de un bombrero en Ucrania</figcaption>
+              </figure>
+                <p>
+                    El <kbd>presidente</kbd> ruso, Vladimir Putin, que celebra este martes su cumpleaños, 
+                    ha asegurado que las <var>fuerzas</var> rusas han capturado casi 5.000 kilómetros cuadrados en Ucrania en 2025 y 
+                    que <dfn title="Capital de Rusia">Moscú</dfn>  mantiene la iniciativa estratégica total en el campo de batalla.
+                </p>  
+            </blockquote>
+            <footer>
+              <address>Héctor Atienza, Marifé Velasco</address>
+            </footer>
+          </article>
+        </div>
+      </section>
+      
+
+    </main>
+
+    <footer class="footer">
+      <p class="derechos">
+        © 2025 DAW1. Juan Miguel Dominguez. Todos los derechos reservados.
+      </p>
+      <p class="modificacion">
+        Última modificación: 19 de diciembre de 2026, 09:09
+      </p>
+      <div class="botones">
+        <a class="boton2" href="../../index.html#Unidad2">
+          <img src="images/casa1.png" class="casa" alt="logo casa">
+        
+        </a>
+        <a class="boton1" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmdomper.ieslossauces.es%2Fut2%2F02%2Findex.html">
+          <img src="images/W3C®_Icon.svg.png" class="validador" alt="logo validador">
+        </a>
+        
+      </div>
+    </footer>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+        <title>
+            JuanMigelDominguez Noticias
+        </title>
+
+        <link >
+            https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/rss/rss.xml
+        </link>
+
+        <description>
+            <![CDATA[ Web de LMSGI contiene un portafolio de todas las prácticas realizadas en el curso DAW1]]>
+        </description>
+
+        <language>es</language>
+
+        <lastBuildDate>Tue, 02 June 2026 12:00:00 GMT</lastBuildDate>
+
+        <pubDate>Tue, 17 Feb 2026 12:00:00 GMT</pubDate>
+
+        <atom:link href="https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/rss/rss.xml" rel="self" 
+            type="application/rss+xml"/>
+
+        <item>
+            <title>
+                Pagina Actualizada: Musica Displonible!
+            </title>
+            <description>
+                Ahora puedes escuchar musica en la pagina
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/index.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/index.html
+            </guid>
+            <pubDate>Tue, 17 Feb 2026 12:00:00 GMT</pubDate>
+
+        </item>
+        <item>
+            <title>
+                Ud4.1
+            </title>
+            <description>
+                El primer ejercicio de la unidad 4 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/01/ver.php
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/01/ver.php
+            </guid>
+            <pubDate>Tue, 17 Feb 2026 12:00:00 GMT</pubDate>
+
+        </item>
+        <item>
+            <title>
+                Ud4.2
+            </title>
+            <description>
+                El segundo ejercicio de la unidad 4 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/02/ver.php
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/02/ver.php
+            </guid>
+            <pubDate>Tue, 17 Feb 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud4.3
+            </title>
+            <description>
+                El tercer ejercicio de la unidad 4 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/03/ver.php
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/03/ver.php
+            </guid>
+            <pubDate>Tue, 11 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud4.4
+            </title>
+            <description>
+                El cuarto ejercicio de la unidad 4 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/04/ver.php
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/04/ver.php
+            </guid>
+            <pubDate>Tue, 11 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        
+        <item>
+            <title>
+                Ud4.5
+            </title>
+            <description>
+                El quinto ejercicio de la unidad 4 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/05/ver.php
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/05/ver.php
+            </guid>
+            <pubDate>Tue, 11 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud4.6
+            </title>
+            <description>
+                El sexto ejercicio de la unidad 4 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/06/ver.php
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/06/ver.php
+            </guid>
+            <pubDate>Tue, 11 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud4.7
+            </title>
+            <description>
+                El septimo ejercicio de la unidad 4 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/07/ver.php
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut4/07/ver.php
+            </guid>
+            <pubDate>Tue, 11 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Examen 2
+            </title>
+            <description>
+                El segundo examen a sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/examenes/02/index.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/examenes/02/index.html
+            </guid>
+            <pubDate>Mon, 17 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud2.7
+            </title>
+            <description>
+                El septimo ejercicio de la unidad 2 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/07/index.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/07/index.html
+            </guid>
+            <pubDate>Wed, 18 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud2.6
+            </title>
+            <description>
+                El sexto ejercicio de la unidad 2 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/06/index.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/06/index.html
+            </guid>
+            <pubDate>Thu, 18 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud2.8
+            </title>
+            <description>
+                El octavo ejercicio de la unidad 2 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/08/index.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/08/index.html
+            </guid>
+            <pubDate>Fri, 18 Mar 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Indice de curso
+            </title>
+            <description>
+                El indice de cursos ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/index.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/index.html
+            </guid>
+            <pubDate>Fri, 10 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud1.2
+            </title>
+            <description>
+                El segundo ejercicio de la unidad 1 ha sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut1/02.txt
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut1/02.txt
+            </guid>
+            <pubDate>Mon, 13 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud2.9
+            </title>
+            <description>
+                El noveno ejercicio de la unidad 2 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/09/index.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut2/09/index.html
+            </guid>
+            <pubDate>Mon, 13 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud5.1
+            </title>
+            <description>
+                El primer ejercicio de la unidad 5 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/01/01.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/01/01.html
+            </guid>
+            <pubDate>Mon, 20 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud5.2
+            </title>
+            <description>
+                El segundo ejercicio de la unidad 5 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/02/01.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/02/01.html
+            </guid>
+            <pubDate>Wed, 29 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud5.3
+            </title>
+            <description>
+                El tercer ejercicio de la unidad 5 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/03/01.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/03/01.html
+            </guid>
+            <pubDate>Wed, 29 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud5.4
+            </title>
+            <description>
+                El cuarto ejercicio de la unidad 5 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/04/eltiempo.xml
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/04/eltiempo.xml
+            </guid>
+            <pubDate>Wed, 13 May 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud5.5
+            </title>
+            <description>
+                El quinto ejercicio de la unidad 5 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/05/05.xml
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/05/05.xml
+            </guid>
+            <pubDate>Mon, 18 May 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud5.6
+            </title>
+            <description>
+                El sexto ejercicio de la unidad 5 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/06/nuevo.xml
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/06/nuevo.xml
+            </guid>
+            <pubDate>Thu, 21 May 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud5.7
+            </title>
+            <description>
+                El septimo ejercicio de la unidad 5 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/07/07.xml
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut5/07/07.xml
+            </guid>
+            <pubDate>Thu, 21 May 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud6.1
+            </title>
+            <description>
+                El primer ejercicio de la unidad 6 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/01/01.json
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/01/01.json
+            </guid>
+            <pubDate>Mon, 25 May 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud6.2
+            </title>
+            <description>
+                El segundo ejercicio de la unidad 6 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/02/01.json
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/02/01.json
+            </guid>
+            <pubDate>Mon, 25 May 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud6.3
+            </title>
+            <description>
+                El tercer ejercicio de la unidad 6 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/03/01.json
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/03/01.json
+            </guid>
+            <pubDate>Tue, 02 June 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud6.4
+            </title>
+            <description>
+                El cuarto ejercicio de la unidad 6 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/04/settings.json
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/04/settings.json
+            </guid>
+            <pubDate>Tue, 02 June 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud6.5
+            </title>
+            <description>
+                El quinto ejercicio de la unidad 6 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/05/01.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/05/01.html
+            </guid>
+            <pubDate>Tue, 02 June 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud6.6
+            </title>
+            <description>
+                El sexto ejercicio de la unidad 6 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/06/01.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/06/01.html
+            </guid>
+            <pubDate>Tue, 02 June 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Ud6.7
+            </title>
+            <description>
+                El septimo ejercicio de la unidad 6 ha sido publicado
+            </description>
+            
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/07/01.pdf
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/ut6/07/01.pdf
+            </guid>
+            <pubDate>Fri, 06 June 2026 12:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                Examen 3
+            </title>
+            <description>
+                El tercer examen a sido publicado
+            </description>
+
+            <link>
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/examenes/04/grupos.html
+            </link>
+            <guid isPermaLink="true">
+                https://juanmdomper.ieslossauces.es/JMDPLMSGIProyectoLMSGI/examenes/04/grupos.html
+            </guid>
+            <pubDate>Fri, 06 June 2026 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

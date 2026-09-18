@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ut5-1 Juan Dominguez</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+
+  <body>
+    <header>
+      <h2 class="line1">XPath Actividad 1</h2>
+    </header>
+
+    <main class="cuerpo-exte">
+
+        <aside class="cuerpo1">
+          <h3>
+            XML
+          </h3>
+          <textarea spellcheck="false">
+  <?xml version="1.0" encoding="UTF-8"?>
+  <actividades>
+      <actividad nivel="infantil">
+          <codigo>C01</codigo>
+          <titulo>Descubrimiento acuático</titulo>
+          <fecha_inicio>2019-01-10</fecha_inicio>
+          <sesiones intensidad="suave">
+              <minutos_sesion>30</minutos_sesion>
+              <sesiones_semana>2</sesiones_semana>
+          </sesiones>
+      </actividad>
+
+      <actividad nivel="juvenil">
+          <codigo>C02</codigo>
+          <titulo>Natación técnica</titulo>
+          <fecha_inicio>2019-02-05</fecha_inicio>
+          <sesiones intensidad="moderada">
+              <minutos_sesion>55</minutos_sesion>
+              <sesiones_semana>3</sesiones_semana>
+          </sesiones>
+      </actividad>
+
+      <actividad nivel="adultos">
+          <codigo>C03</codigo>
+          <titulo>Entrenamiento funcional acuático</titulo>
+          <fecha_inicio>2019-03-12</fecha_inicio>
+          <sesiones intensidad="fuerte">
+              <minutos_sesion>60</minutos_sesion>
+              <sesiones_semana>4</sesiones_semana>
+          </sesiones>
+      </actividad>
+
+      <actividad nivel="adultos">
+          <codigo>C04</codigo>
+          <titulo>Rehabilitación en piscina</titulo>
+          <fecha_inicio>2019-04-01</fecha_inicio>
+          <sesiones intensidad="suave">
+              <minutos_sesion>40</minutos_sesion>
+              <sesiones_semana>3</sesiones_semana>
+          </sesiones>
+      </actividad>
+
+      <actividad nivel="infantil">
+          <codigo>C05</codigo>
+          <titulo>Juegos y coordinación en el agua</titulo>
+          <fecha_inicio>2019-05-20</fecha_inicio>
+          <sesiones intensidad="moderada">
+              <minutos_sesion>45</minutos_sesion>
+              <sesiones_semana>2</sesiones_semana>
+          </sesiones>
+      </actividad>
+
+      <actividad nivel="juvenil">
+          <codigo>C06</codigo>
+          <titulo>Salvamento acuático básico</titulo>
+          <fecha_inicio>2019-06-15</fecha_inicio>
+          <sesiones intensidad="fuerte">
+              <minutos_sesion>50</minutos_sesion>
+              <sesiones_semana>3</sesiones_semana>
+          </sesiones>
+      </actividad>
+
+      <actividad nivel="adultos">
+          <codigo>C07</codigo>
+          <titulo>Aqua yoga</titulo>
+          <fecha_inicio>2019-07-10</fecha_inicio>
+          <sesiones intensidad="suave">
+              <minutos_sesion>35</minutos_sesion>
+              <sesiones_semana>2</sesiones_semana>
+          </sesiones>
+      </actividad>
+
+      <actividad nivel="adultos">
+          <codigo>C08</codigo>
+          <titulo>Resistencia y cardio en agua</titulo>
+          <fecha_inicio>2019-08-25</fecha_inicio>
+          <sesiones intensidad="fuerte">
+              <minutos_sesion>65</minutos_sesion>
+              <sesiones_semana>4</sesiones_semana>
+          </sesiones>
+      </actividad>
+  </actividades>
+          </textarea>
+        </aside>
+
+        <div class="cuerpo2"> 
+          <div class="div-input">
+            <h4>
+              1. Selecciona todas las Actividades
+            </h4>
+            <code>//actividad</code>
+            <pre><code>
+              C01 Descubrimiento acuático 2019-01-10 30 2
+              C02 Natación técnica 2019-02-05 55 3
+              C03 Entrenamiento funcional acuático 2019-03-12 60 4
+              C04 Rehabilitación en piscina 2019-04-01 40 3
+              C05 Juegos y coordinación en el agua 2019-05-20 45 2
+              C06 Salvamento acuático básico 2019-06-15 50 3
+              C07 Aqua yoga 2019-07-10 35 2
+              C08 Resistencia y cardio en agua 2019-08-25 65 4
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              2. Obtiene Todos los Títulos
+            </h4>
+            <code>//titulo</code>
+            <pre><code>
+              Descubrimiento acuático
+              Natación técnica
+              Entrenamiento funcional acuático
+              Rehabilitación en piscina
+              Juegos y coordinación en el agua
+              Salvamento acuático básico
+              Aqua yoga
+              Resistencia y cardio en agua
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              3. El Primer Título de la Actividad
+            </h4>
+            <code>(/actividades/actividad/titulo)[1]</code>
+            <pre><code>
+              Descubrimiento acuático
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              4. El último título de la actividad
+            </h4>
+            <code>/actividades/actividad[last()]/titulo</code>
+            <pre><code>
+              Resistencia y cardio en agua
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              5. Primeras Tres Actividades
+            </h4>
+            <code>/actividades/actividad[position() <= 3]</code>
+            <pre><code>
+                C01 Descubrimiento acuático 2019-01-10 30 2
+                C02 Natación técnica 2019-02-05 55 3
+                C03 Entrenamiento funcional acuático 2019-03-12 60 4
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              6. Todos los Elementos Descendientes de las Actividades Infantiles
+            </h4>
+            <code>//actividad[@nivel='infantil']//*</code>
+            <pre><code>
+                C01
+                Descubrimiento acuático
+                2019-01-10
+                30 2
+                30
+                2
+                C05
+                Juegos y coordinación en el agua
+                2019-05-20
+                45 2
+                45
+                2
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              7. El Nombre de las Actividades Para Adultos.
+            </h4>
+            <code>//actividad[@nivel='adultos']/titulo</code>
+            <pre><code>
+                Entrenamiento funcional acuático
+                Rehabilitación en piscina
+                Aqua yoga
+                Resistencia y cardio en agua
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              8. El Nombre de las Actividades con dos Sesiones Semanales
+            </h4>
+            <code>//actividad[sesiones/sesiones_semana=2]/titulo</code>
+            <pre><code>
+                Descubrimiento acuático
+                Juegos y coordinación en el agua
+                Aqua yoga
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              9. Número de actividades
+            </h4>
+            <code>count(//actividad)</code>
+            <pre><code>
+                8
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              10. Cuenta del Número de Actividades Infantiles.
+            </h4>
+            <code>count(//actividad[@nivel='infantil'])</code>
+            <pre><code>
+                2
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              11. Suma de las Sesiones Semanales de las Actividades para Adultos.
+            </h4>
+            <code>sum(//actividad[@nivel='adultos']/sesiones/sesiones_semana)</code>
+            <pre><code>
+                13
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              12. Nodos de la Actividad de Código C06
+            </h4>
+            <code>//actividad[codigo='C06']</code>
+            <pre><code>
+                C06 Salvamento acuático básico 2019-06-15 50 3
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              13. Duración de las Actividades con Intensidad Fuerte
+            </h4>
+            <code>//actividad/sesiones[@intensidad='fuerte']/minutos_sesion</code>
+            <pre><code>
+                60
+                50
+                65
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              14. Mostrar el Código de las Actividades Cuya Duración Coincide con la Duración del 1º Actividad.
+            </h4>
+            <code>//actividad[sesiones/minutos_sesion = /actividades/actividad[1]/sesiones/minutos_sesion]/codigo</code>
+            <pre><code>
+                C01
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              15. Título de las Actividades del Año 2019
+            </h4>
+            <code>//actividad[starts-with(fecha_inicio,'2019')]/titulo/text()</code>
+            <pre><code>
+                Descubrimiento acuático
+                Natación técnica
+                Entrenamiento funcional acuático
+                Rehabilitación en piscina
+                Juegos y coordinación en el agua
+                Salvamento acuático básico
+                Aqua yoga
+                Resistencia y cardio en agua
+            </code></pre>
+          </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+      <p class="derechos">
+        © 2026 DAW1. <span ><a class="miweb-link" href="../../index.html" >Juan Miguel Dominguez</a></span>. Todos los derechos reservados.
+      </p>
+      <p class="modificacion">
+        Última modificación: 15 de Abril de 2026, 09:00
+      </p>        
+    </footer>
+    
+  </body>
+  
+</html>

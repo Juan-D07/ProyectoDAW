@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Roboto;
+    src:url(../font/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+p{
+  box-sizing: border-box; 
+  scroll-behavior: smooth; 
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding: 0;
+}

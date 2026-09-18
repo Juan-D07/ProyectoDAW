@@ -1,0 +1,33 @@
+<!ELEMENT tiendaJuegos (juego)*>
+<!ATTLIST tiendaJuegos xmlns:xsi CDATA #IMPLIED
+                    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+
+
+<!ELEMENT juego (nombre, desarrolladora, fechaLanzamiento, motorGrafico, plataforma, website)>
+<!ATTLIST juego idJuego ID #REQUIRED
+                juegoPrecuela IDREF #IMPLIED>
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT desarrolladora (#PCDATA)>
+<!ATTLIST desarrolladora region (Japon | Londres | Toronto) "Japon">
+
+<!ELEMENT fechaLanzamiento (anio, mes?,dia?)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT dia (#PCDATA)>
+
+<!ELEMENT motorGrafico (unreal | unity | rage)>
+<!ELEMENT unreal EMPTY>
+<!ELEMENT unity EMPTY>
+<!ELEMENT rage EMPTY>
+<!ATTLIST unreal generacion CDATA #REQUIRED>
+<!ATTLIST unity generacion CDATA #REQUIRED>
+<!ATTLIST rage generacion CDATA #REQUIRED>
+
+
+
+<!ELEMENT plataforma EMPTY>
+<!ATTLIST plataforma tipo CDATA #FIXED "consola">
+
+<!ELEMENT website (#PCDATA)>

@@ -1,0 +1,79 @@
+<?xml-stylesheet type="text/xsl" href="grupos.xsl"?>
+<mundial_2026>
+    <torneo>Copa Mundial de la FIFA 2026</torneo>
+    <sedes>Estados Unidos, México, Canadá</sedes>
+    <grupos>
+        <grupo id="A">
+            <equipo bandera="MX">México</equipo>
+            <equipo bandera="ZA">Sudáfrica</equipo>
+            <equipo bandera="KR">Corea del Sur</equipo>
+            <equipo bandera="CZ">República Checa</equipo>
+        </grupo>
+        <grupo id="B">
+            <equipo bandera="CA">Canadá</equipo>
+            <equipo bandera="BA">Bosnia y Herzegovina</equipo>
+            <equipo bandera="QA">Catar</equipo>
+            <equipo bandera="CH">Suiza</equipo>
+        </grupo>
+        <grupo id="C">
+            <equipo bandera="BR">Brasil</equipo>
+            <equipo bandera="MA">Marruecos</equipo>
+            <equipo bandera="HT">Haití</equipo>
+            <equipo bandera="GB-SCT">Escocia</equipo>
+        </grupo>
+        <grupo id="D">
+            <equipo bandera="US">Estados Unidos</equipo>
+            <equipo bandera="PY">Paraguay</equipo>
+            <equipo bandera="AU">Australia</equipo>
+            <equipo bandera="TR">Turquía</equipo>
+        </grupo>
+        <grupo id="E">
+            <equipo bandera="DE">Alemania</equipo>
+            <equipo bandera="CW">Curazao</equipo>
+            <equipo bandera="CI">Costa de Marfil</equipo>
+            <equipo bandera="EC">Ecuador</equipo>
+        </grupo>
+        <grupo id="F">
+            <equipo bandera="NL">Países Bajos</equipo>
+            <equipo bandera="JP">Japón</equipo>
+            <equipo bandera="SE">Suecia</equipo>
+            <equipo bandera="TN">Túnez</equipo>
+        </grupo>
+        <grupo id="G">
+            <equipo bandera="BE">Bélgica</equipo>
+            <equipo bandera="EG">Egipto</equipo>
+            <equipo bandera="IR">Irán</equipo>
+            <equipo bandera="NZ">Nueva Zelanda</equipo>
+        </grupo>
+        <grupo id="H">
+            <equipo bandera="ES">España</equipo>
+            <equipo bandera="CV">Cabo Verde</equipo>
+            <equipo bandera="SA">Arabia Saudita</equipo>
+            <equipo bandera="UY">Uruguay</equipo>
+        </grupo>
+        <grupo id="I">
+            <equipo bandera="FR">Francia</equipo>
+            <equipo bandera="SN">Senegal</equipo>
+            <equipo bandera="IQ">Irak</equipo>
+            <equipo bandera="NO">Noruega</equipo>
+        </grupo>
+        <grupo id="J">
+            <equipo bandera="AR">Argentina</equipo>
+            <equipo bandera="DZ">Argelia</equipo>
+            <equipo bandera="AT">Austria</equipo>
+            <equipo bandera="JO">Jordania</equipo>
+        </grupo>
+        <grupo id="K">
+            <equipo bandera="PT">Portugal</equipo>
+            <equipo bandera="CD">República Democrática del Congo</equipo>
+            <equipo bandera="UZ">Uzbekistán</equipo>
+            <equipo bandera="CO">Colombia</equipo>
+        </grupo>
+        <grupo id="L">
+            <equipo bandera="GB">Inglaterra</equipo>
+            <equipo bandera="HR">Croacia</equipo>
+            <equipo bandera="GH">Ghana</equipo>
+            <equipo bandera="PA">Panamá</equipo>
+        </grupo>
+    </grupos>
+</mundial_2026>

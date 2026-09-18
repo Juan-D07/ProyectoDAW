@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BD · Juan Miguel Dominguez </title>
+    <link rel="icon" href="webroot/images/pagina_logo.png" type="image/png"> 
+    <link rel="stylesheet" href="webroot/font/Roboto-Italic-VariableFont_wdth,wght.ttf">   
+    <link rel="stylesheet" href="webroot/css/indice.css">
+    <link rel="stylesheet" href="webroot/css/style.css">
+    <script src="webroot/script/script.js" defer></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left-sec">
+        <a href="../../index.html">
+          <img src="webroot/images/logo.png" class="logo-img" alt="logo de los sauces">
+        </a>
+      </div>
+      <div class="header-middle-sec">
+        <a class="casa-boton" href="#home">
+          <img src="webroot/images/casa.png" class="casa-img" alt="icono de casa">
+        </a>
+        <button class="lupita-boton">
+          <img src="webroot/images/lupita.png" class="lupita-img" alt="lupa">
+        </button>
+        <input type="search" class="searchB" placeholder="Buscar">
+        <button class="browse-boton">
+          <img src="webroot/images/browse.png" class="browse-img" alt="explorador">
+        </button>
+      </div>
+      <div class="header-right-sec">
+        <div class="nombre-title">Juan Miguel Dominguez · DAW1 · Bases de Datos</div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="Libreria-s-div">
+        <img src="webroot/images/libreria.png" class="Libreria-s-img" alt="libreria">
+        
+      </div>
+      <div class="Unidad1-s-div">
+        <a>
+          <img src="webroot/images/Caramelos_de_cianuro-Miss_Venezuela.png" class="Unidad1-s-img" alt="album Miss Venezuala">
+        </a>
+        <div class="tooltip-side"> Unidad 1</div>
+      </div>
+      <div class="Unidad2-s-div">
+        <a >
+          <img src="webroot/images/black_sabbath-paranoid.png" class="Unidad2-s-img" alt="album paranoid">
+        </a>
+        <div class="tooltip-side"> Unidad 2</div>
+      </div>
+      <div class="Unidad3-s-div">
+        <a >
+          <img src="webroot/images/persona_4.png" class="Unidad3-s-img" alt="album persona 4">
+        </a>
+        <div class="tooltip-side"> Unidad 3</div>
+      </div>
+      <div class="Unidad4-s-div">
+        <a>
+          <img src="webroot/images/playboi_carti-whole_lotta_red.png" class="Unidad4-s-img" alt="album Whole Lotta Red">
+        </a>
+        <div class="tooltip-side"> Unidad 4</div>
+      </div>
+      <div class="Unidad5-s-div">
+        <a>
+          <img src="webroot/images/canserbero-murte.png" class="Unidad5-s-img" alt="album muerte">
+        </a>
+        <div class="tooltip-side"> Unidad 5</div>
+      </div>
+      <div class="Unidad6-s-div">
+        <a>
+          <img src="webroot/images/mfdoom-madvillanry.png" class="Unidad6-s-img" alt="album MadVillanry">
+        </a>
+        <div class="tooltip-side"> Unidad 6</div>
+      </div>
+      <div class="Unidad7-s-div">
+        <a>
+          <img src="webroot/images/hector_lavoe-de_ti_depende.png" class="Unidad7-s-img" alt="album De Ti Depende">
+        </a>
+        <div class="tooltip-side"> Unidad 7</div>
+      </div>
+      <div class="Unidad8-s-div">
+        <a>
+          <img src="webroot/images/nujabes-luvsic_hexalogy.png" class="Unidad8-s-img" alt="album LuvSic Hexalogy">
+        </a>
+        <div class="tooltip-side"> Exámenes</div>
+      </div>
+    </nav>
+
+    <div class="playbar">
+      <div class="playbar-left-div">
+        <img id="song-img" class="playbar-img" alt="Monkeys Spinning Monkeys">
+        <div class="playbar-song-txt">
+          <p class="playbar-song-name" id="song-name-txt">
+            
+          </p>
+          <p class="playbar-song-author" id="song-author-txt">
+            
+          </p>
+
+        </div>
+      </div>
+      <div class="playbar-mid-div">
+        <audio id="audioElement" ></audio>
+        <div class="playbar-upper-mid">
+          <button id="boton-prev">
+            <img src="webroot/images/prev.png" id="boton-prev-img" alt="boton Anterior">
+          </button>
+          <button id="boton-pause" class="reanudar">
+            <img src="webroot/images/play.png" id="boton-pause-img"  alt="boton pausa">
+          </button>
+          <button id="boton-next">
+            <img src="webroot/images/next.png" id="boton-next-img" alt="boton siguiente">
+          </button>
+        </div>
+        <div class="playbar-lower-mid">
+          <p id="playbar-time-start">
+            0:00
+          </p>
+          
+          <input type="range" class="playbar-bar">
+          <p id="playbar-time-end">
+            0:00
+          </p>
+        </div>
+      </div>
+      <div class="playbar-right-div">
+        <button id="boton-mute" class="unmute">
+            <img src="webroot/images/unmuted.png" id="boton-mute-img"  alt="boton mute">
+        </button> 
+      </div>
+    </div>
+
+    <main class="contentBody">
+
+      <section class="Unidad-sec" id="Unidad1">
+        <h2 class="Unidad-txt" >
+          UD1 Gestor Ficheros
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad2">
+        <h2 class="Unidad-txt" >
+          UD2 Gestor de Bases de Datos
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad3">
+        <h2 class="Unidad-txt" >
+          UD3 Modelo Entidad Relacion
+        </h2>
+          <div class="Unidad-grid">
+            <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+          </div>
+        </section>
+
+      <section class="Unidad-sec" id="Unidad4">
+        <h2 class="Unidad-txt" >
+          UD4 Modelo Relacional
+        </h2>
+          <div class="Unidad-grid">
+            <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+          </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad5">
+        <h2 class="Unidad-txt" >
+          UD5 MYSQL(DDL)
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad6">
+        <h2 class="Unidad-txt" >
+          UD6 MYSQL(DML)
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad7">
+        <h2 class="Unidad-txt" >
+          UD7 Triggers & Disparadores
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad8">
+        <h2 class="Unidad-txt" >
+          UD8 Funciones y Pocedimiento Almacenados
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad9">
+        <h2 class="Unidad-txt" >
+          UD9 Cursores
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="Unidad-sec" id="Unidad10">
+        <h2 class="Unidad-txt" >
+          UD10 Gestion de Usuarios y Permisos
+        </h2>
+        <div class="Unidad-grid">
+          <a class="ejercicio-div" href="./error/error.html">
+            <img class="ejercicio-img" src="webroot/images/Construccion.jpg" alt="pagina bajo construcción">
+            <div class="ejercicio-title"> Ejercicio 1 - Próximamente</div>
+            <div class="play-tooltip">
+              <img class="play-img" src="webroot/images/play.png" alt="reanudar">
+            </div>
+          </a>
+        </div>
+      </section>
+          
+    </main>
+
+    <footer class="footer">
+      <div class="derechos-txt">
+        © 2025-2026 DAW1. <span><a href="../../index.html">Juan Miguel Dominguez.</a></span> Todos los derechos reservados.
+      </div>
+      <div class="modificacion-txt">
+        Última modificación: 28 de Abril de 2026, 21:09
+      </div>
+      <div class="links-imagen-div">
+        <a href="https://open.spotify.com">
+          <img src="webroot/images/spotify.png" class="spotify-img" alt="spotify logo">
+        </a>
+        
+        <a href="#home">
+          <img src="webroot/images/github.png" class="github-img" alt="github logo">
+        </a>
+        
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmdomper.ieslossauces.es%2F">
+          <img src="webroot/images/W3C®_Icon.svg.png" class="validador-img" alt="Validador logo">
+        </a>
+
+      </div>
+    </footer>
+
+
+
+  </body>  
+
+
+
+
+</html>

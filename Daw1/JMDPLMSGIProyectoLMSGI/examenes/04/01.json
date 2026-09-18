@@ -1,0 +1,45 @@
+{
+    "grupos":[
+        {
+            "id": "A",
+            "equipos":[{
+                "bandera":"MX",
+                "nombre": "México"
+            },
+            {
+                "bandera":"ZA",
+                "nombre": "Sudáfrica"
+            },
+            {
+                "bandera":"KR",
+                "nombre": "Corea del Sur"
+            },
+            {
+                "bandera":"CZ",
+                "nombre": "República Checa"
+            }
+        ]
+        },
+        {
+            "id": "B",
+            "equipos":[{
+                "bandera":"CA",
+                "nombre": "Canadá"
+            },
+            {
+                "bandera":"BA",
+                "nombre": "Bosnia y Herzegovina"
+            },
+            {
+                "bandera":"QA",
+                "nombre": "Catar"
+            },
+            {
+                "bandera":"CH",
+                "nombre": "Suiza"
+            }
+        ]
+        }
+
+    ]
+}

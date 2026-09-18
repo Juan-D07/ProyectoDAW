@@ -1,0 +1,68 @@
+
+
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, Arial;
+}
+
+
+.header{
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  padding:15px
+}
+
+.line1{
+  color: White;
+  background-color: seagreen ;
+  padding: 5px;
+  font-weight:700;
+  font-size:32px;
+  border-radius: 10px;
+}
+
+.line2{
+  color: White;
+  font-weight:700;
+  font-size:24px;
+}
+
+
+.footer{
+  margin-top: auto;
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  padding:15px;
+  vertical-align: top;
+  color: white;
+
+}
+
+.derechos, .modificacion{
+  margin-bottom: 10px;
+}
+
+.botones{
+  display:flex;
+  flex-direction: row;
+  margin:0px;
+  height:50px;
+  gap:10px;
+  border:none;
+}
+
+
+.validador, .casa{
+  height: 100%;
+}

@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ut5-3 Juan Dominguez</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+
+  <body>
+    <header>
+      <h2 class="line1">XPath Universidad 3</h2>
+    </header>
+
+    <main class="cuerpo-exte">
+
+        <aside class="cuerpo1">
+          <h3>
+            XML
+          </h3>
+          <textarea spellcheck="false">
+  <universidad>
+      <nombre year="1964">Universidad de Victoria</nombre>
+    <fechaconstruccion>14/03/1964</fechaconstruccion>
+      <pais>España</pais>
+  <!-- CARRERAS -->
+      <carreras>
+          <carrera id="c01">
+              <nombre>I.T. Informática</nombre>
+              <plan>2003</plan>
+              <creditos>250</creditos>
+              <centro>Escuela de Informática</centro>
+          </carrera>
+          <carrera id="c02">
+              <nombre>Dipl. Empresariales</nombre>
+              <plan>2001</plan>
+              <creditos>275</creditos>
+              <centro>Facultad de Ciencias Sociales</centro>
+          </carrera>
+          <carrera id="c03">
+              <nombre>Dipl. Relaciones Laborales</nombre>
+              <plan>2001</plan>
+              <creditos>280</creditos>
+              <centro>Facultad de Ciencias Sociales</centro>
+              <subdirector>Alfonso Martín Luque</subdirector>
+          </carrera>
+          <carrera id="c04">
+              <nombre>Lic. Quimica</nombre>
+              <plan>2003</plan>
+              <creditos>175</creditos>
+              <centro>Facultad de Ciencias Experimentales</centro>
+          </carrera>
+          <carrera id="c05">
+              <nombre>Lic. Biología</nombre>
+              <plan>2001</plan>
+              <creditos>175</creditos>
+              <centro>Facultad de Ciencias Experimentales</centro>
+          </carrera>
+          <carrera id="c06">
+              <nombre>Lic. Humanidades</nombre>
+              <plan>1980</plan>
+              <creditos>475</creditos>
+              <centro>Facultad de Humanidades</centro>
+          </carrera>
+      </carreras>
+
+  <!-- ASIGNATURAS -->
+
+      <asignaturas>
+          <asignatura id="a01" titulacion="c01">
+              <nombre>Ofimática</nombre>
+              <creditos_teoricos>3</creditos_teoricos>
+              <creditos_practicos>1.5</creditos_practicos>
+              <trimestre>1</trimestre>
+          </asignatura>
+          <asignatura id="a02" titulacion="c01">
+              <nombre>Ingeniería del Software</nombre>
+              <creditos_teoricos>6</creditos_teoricos>
+              <creditos_practicos>1.5</creditos_practicos>
+              <trimestre>2</trimestre>
+          </asignatura>
+          <asignatura id="a03" titulacion="c02">
+              <nombre>Administración de Empresas</nombre>
+              <creditos_teoricos>4</creditos_teoricos>
+              <creditos_practicos>1.5</creditos_practicos>
+              <trimestre>1</trimestre>
+          </asignatura>
+          <asignatura id="a04" titulacion="c02">
+              <nombre>Derecho Internacional</nombre>
+              <creditos_teoricos>4</creditos_teoricos>
+              <creditos_practicos>5</creditos_practicos>
+              <trimestre>1</trimestre>
+          </asignatura>
+          <asignatura id="a05" titulacion="c04">
+              <nombre>Pedagogía</nombre>
+              <creditos_teoricos>4</creditos_teoricos>
+              <creditos_practicos>1.5</creditos_practicos>
+              <trimestre>2</trimestre>
+          </asignatura>
+          <asignatura id="a06" titulacion="c03">
+              <nombre>Didáctica</nombre>
+              <creditos_teoricos>4</creditos_teoricos>
+              <creditos_practicos>3</creditos_practicos>
+              <trimestre>2</trimestre>
+          </asignatura>
+          <asignatura id="a07" titulacion="c04">
+              <nombre>Tecnología de los Alimentos</nombre>
+              <creditos_teoricos>1.5</creditos_teoricos>
+              <creditos_practicos>7.5</creditos_practicos>
+              <trimestre>2</trimestre>
+          </asignatura>
+          <asignatura id="a08" titulacion="c01">
+              <nombre>Bases de Datos</nombre>
+              <creditos_teoricos>4.5</creditos_teoricos>
+              <creditos_practicos>5.5</creditos_practicos>
+              <trimestre>1</trimestre>
+          </asignatura>
+          <asignatura id="a09" titulacion="c06">
+              <nombre>Historia del Pensamiento</nombre>
+              <creditos_teoricos>6</creditos_teoricos>
+              <creditos_practicos>0</creditos_practicos>
+              <trimestre>2</trimestre>
+          </asignatura>
+      </asignaturas>
+
+  <!-- ALUMNOS -->
+
+      <alumnos>
+          <alumno id="e01">
+              <apellido1>Rivas</apellido1>
+              <apellido2>Santos</apellido2>
+              <nombre>Víctor Manuel</nombre>
+              <sexo>Hombre</sexo>
+              <estudios>
+                  <carrera codigo="c01"/>
+                  <asignaturas>
+                      <asignatura codigo="a01"/>
+                      <asignatura codigo="a03"/>
+                      <asignatura codigo="a05"/>
+                      <asignatura codigo="a09"/>
+                  </asignaturas>
+              </estudios>
+          </alumno>
+          <alumno id="e02">
+              <apellido1>Pérez</apellido1>
+              <apellido2>García</apellido2>
+              <nombre>Luisa</nombre>
+              <sexo>Mujer</sexo>
+              <estudios>
+                  <carrera codigo="c02"/>
+                  <asignaturas>
+                      <asignatura codigo="a02"/>
+                      <asignatura codigo="a01"/>
+                  </asignaturas>
+                  <proyecto>Web de IBM.com</proyecto>
+              </estudios>
+          </alumno>
+          <alumno id="e03" beca="si">
+              <apellido1>Pérez</apellido1>
+              <apellido2>Romero</apellido2>
+              <nombre>Fernando</nombre>
+              <sexo>Hombre</sexo>
+              <estudios>
+                  <carrera codigo="c02"/>
+                  <asignaturas>
+                      <asignatura codigo="a02"/>
+                      <asignatura codigo="a01"/>
+                      <asignatura codigo="a04"/>
+                      <asignatura codigo="a09"/>
+                  </asignaturas>
+              </estudios>
+          </alumno>
+          <alumno id="e04">
+              <apellido1>Avalón</apellido1>
+              <apellido2>Jiménez</apellido2>
+              <nombre>María</nombre>
+              <sexo>Mujer</sexo>
+              <estudios>
+                  <carrera codigo="c01"/>
+                  <asignaturas>
+                      <asignatura codigo="a02"/>
+                      <asignatura codigo="a01"/>
+                      <asignatura codigo="a07"/>
+                  </asignaturas>
+                  <proyecto>Estudio de Salinidad del Pantano Iris</proyecto>
+              </estudios>
+          </alumno>
+      </alumnos>
+  </universidad>
+          </textarea>
+        </aside>
+
+        <div class="cuerpo2"> 
+          <div class="div-input">
+            <h4>
+              1. Nombre de la Universidad:
+            </h4>
+            <code>/universidad/nombre/text()</code>
+            <pre><code>
+    Universidad de Victoria 
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              2. Pais de la Universidad:
+            </h4>
+            <code>/universidad/pais/text()</code>
+            <pre><code>
+    España
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              3. Nombres de las Carreras:
+            </h4>
+            <code>//carrera/nombre/text()</code>
+            <pre><code>
+    1. I.T. Informática
+    2. Dipl. Empresariales
+    3. Dipl. Relaciones Laborales
+    4. Lic. Quimica
+    5. Lic. Biología
+    6. Lic. Humanidades
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              4. Años de plan de estudio de las carreras:
+            </h4> 
+            <!-- distinct-values -->
+            <code>//carrera/plan/text()</code>
+            <pre><code>
+    1. 2003
+    2. 2001
+    3. 2001
+    4. 2003
+    5. 2001
+    6. 1980
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              5. Nombres de todos los alumnos:
+            </h4>
+            <code>//alumno/nombre/text()</code>
+            <pre><code>
+    1.Víctor Manuel
+    2.Luisa
+    3.Fernando
+    4.María
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              6. Identificadores de todas las carreras:
+            </h4>
+            <code>//coche[matricula="1234A"]/color/text()</code>
+            <pre><code>
+    1. c01
+    2. c02
+    3. c03
+    4. c04
+    5. c05
+    6. c06
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              7. Datos de la carrera cuyo id es c01:
+            </h4>
+            <code>//carrera[@id='c01']</code>
+            <pre><code>
+    I.T. Informática 2003 250 Escuela de Informática 
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              8. Centro en que se estudia de la carrera cuyo id es c02:
+            </h4>
+            <code>//carrera[@id='c02']/centro/text()</code>
+            <pre><code>
+    Facultad de Ciencias Sociales
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              9. Nombre de las carreras que tengan subdirector:
+            </h4>
+            <code>//carrera[subdirector]/nombre/text()</code>
+            <pre><code>
+    Dipl. Relaciones Laborales
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              10. Nombre de los alumnos que estén haciendo proyecto:
+            </h4>
+            <code>//alumno[estudios/proyecto]/nombre/text()</code>
+            <pre><code>
+    1. Luisa
+    2. María
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              11. Códigos de las carreras en las que hay algún alumno matriculado:
+            </h4>
+            <code>//alumno/estudios/carrera/@codigo</code>
+            <pre><code>
+    1. c01
+    2. c02
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              12. Apellidos y Nombre de los alumnos con beca:
+            </h4>
+            <code>//alumno[@beca='si']/(apellido1 | apellido2 | nombre)</code>
+            <pre><code>
+    Pérez
+    Romero
+    Fernando
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              13. Nombre de las asignaturas de la titulación c04:
+            </h4>
+            <code>//asignaturas/asignatura[@titulacion='c04']/nombre/text()</code>
+            <pre><code>
+    1. Pedagogía
+    2. Tecnología de los Alimentos
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              14. Nombre de las asignaturas de segundo trimestre: 
+            </h4>
+            <code>//asignaturas/asignatura[trimestre='2']/nombre/text()</code>
+            <pre><code>
+    1. Ingeniería del Software
+    2. Pedagogía
+    3. Didáctica
+    4. Tecnología de los Alimentos
+    5. Historia del Pensamiento
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              15. Nombre de las asignaturas que no tienen 4 créditos teóricos
+            </h4>
+            <code>//asignaturas/asignatura[creditos_teoricos!='4']/nombre/text()</code>
+            <pre><code>
+    1. Ofimática
+    2. Ingeniería del Software
+    3. Tecnología de los Alimentos
+    4. Bases de Datos
+    5. Historia del Pensamiento
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              16. Código de la carrera que estudia el último alumno:
+            </h4>
+            <code>//alumno[last()]/estudios/carrera/@codigo</code>
+            <pre><code>
+    c01
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              17. Código de las asignaturas que estudian mujeres: 
+            </h4>
+            <code>//alumno[sexo="Mujer"]/estudios/carrera/@codigo</code>
+            <pre><code>
+    1. c01
+    2. c02
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              18. Nombre de los alumnos que matriculados en la asignatura a02: 
+            </h4>
+            <code>//alumnos/alumno[estudios/asignaturas/asignatura/@codigo="a02"]/nombre/text()</code>
+            <pre><code>
+    1. Luisa
+    2. Fernando
+    3. María
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              19. Códigos de las carreras que estudian los alumnos matriculados en alguna asignatura:
+            </h4>
+            <code>//alumno[estudios/asignaturas/asignatura]/estudios/carrera/@codigo</code>
+            <pre><code>
+    1. c01
+    2. c02
+    3. c02
+    4. c01
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              20. Apellidos de todos los hombres 
+            </h4>
+            <code>//alumno[sexo="Hombre"]/(apellido1 | apellido2)</code>
+            <pre><code>
+    1. Rivas   Santos
+    3. Pérez   Romero
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              21. Nombre de la carrera que estudia Víctor Manuel: 
+            </h4>
+            <code>//carreras/carrera[@id=//alumno[nombre="Víctor Manuel"]/estudios/carrera/@codigo]/nombre</code>
+            <pre><code>
+    I.T. Informática
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              22. Nombre de las asignaturas que estudia Luisa:
+            </h4>
+            <code>//asignaturas/asignatura[@id=//alumno[nombre="Luisa"]/estudios/asignaturas/asignatura/@codigo]/nombre</code>
+            <pre><code>
+    1. Ofimática
+    2. Ingeniería del Software
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              23. Primer apellido de los alumnos matriculados en Ingeniería del Software:
+            </h4>
+            <code>//alumno[estudios/asignaturas/asignatura/@codigo= //asignatura[nombre="Ingeniería del Software"]/@id]/apellido1/text()</code>
+            <pre><code>
+    1. Pérez
+    2. Pérez
+    3. Avalón
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              24. Nombre de las carreras que estudian los alumnos matriculados en la asignatura Tecnología 
+              de los Alimentos:
+            </h4>
+            <code>//carreras/carrera[@id=//alumno/estudios[asignaturas/asignatura/@codigo=//asignatura[nombre="Tecnología de los Alimentos"]/@id]/carrera/@codigo]/nombre</code>
+            <pre><code>
+    I.T. Informática
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              25. Nombre de los alumnos matriculados en carreras que no tienen subdirector:
+            </h4>
+            <code>//coche[marca="Ford" or marca="Volkswagen"]/matricula</code>
+            <pre><code>
+    1. Víctor Manuel
+    2. Luisa
+    3. Fernando
+    4. María
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              26. Nombre de los alumnos matriculados en asignaturas con 0 créditos prácticos y que estudien 
+              la carrera de I.T. Informática 
+            </h4>
+            <code>//alumno[estudios/carrera/@codigo= //carreras/carrera[nombre="I.T. Informática"]/@id][estudios/asignaturas/asignatura/@codigo=//asignatura[creditos_practicos="0"]/@id]/nombre/text()</code>
+            <pre><code>
+    Víctor Manuel
+            </code></pre>
+          </div>
+          <div class="div-input">
+            <h4>
+              27. Nombre de los alumnos que estudian carreras cuyos planes son anteriores a 2002
+            </h4>
+            <code>//alumno[estudios/carrera/@codigo=//carreras/carrera[plan&lt;2002]/@id]/nombre/text() </code>
+            <pre><code>
+    1. Luisa
+    2. Fernando
+            </code></pre>
+          </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+      <p class="derechos">
+        © 2026 DAW1. <span ><a class="miweb-link" href="../../index.html" >Juan Miguel Dominguez</a></span>. Todos los derechos reservados.
+      </p>
+      <p class="modificacion">
+        Última modificación: 15 de Abril de 2026, 09:00
+      </p>        
+    </footer>
+    
+  </body>
+  
+</html>

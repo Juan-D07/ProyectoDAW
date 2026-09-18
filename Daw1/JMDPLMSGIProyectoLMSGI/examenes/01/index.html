@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> EX01 - Juan Miguel Dominguez </title>
+		<link rel="icon" href="webroot/favicon/favicon-32x32.png" type="image/png">
+		<link rel="stylesheet" href="webroot/css/estilos.css">
+		<style>
+
+			.slide-div{
+				display:grid;
+				grid-template-columns: 1fr;
+			}
+
+			.slide{
+					height: 100%;
+					width: 100%;
+			}
+
+			.pelicula-grid{
+				display:grid;
+				grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+				column-gap: 6px;
+				padding:0 10px
+			}
+
+			.pelucula-div{
+				display:flex;
+				flex-direction: column;
+				align-items: center;
+
+			}
+
+			.pelicula-img{
+				height:100%;
+				width:100%;
+				border:1px solid white;
+				margin-bottom: -4px;
+			}
+			.pelicula-txt{
+				background-color: black;
+				border:1px solid white;
+				margin:0px;
+				width:100%;
+				font-size: 13px;
+			}
+
+			.lowermain-div{
+				display:grid;
+				grid-template-columns: 2fr 1fr 1fr;
+				margin-top: 50px;
+			}
+
+			.eventos-div{
+				border:1px solid white;
+
+			}
+			.evento-grid{
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				padding:0px 50px 20px 50px;
+				column-gap: 50px;
+			}
+
+			.evento-singular{
+				display:flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			h3{
+				font-size: 16px;
+			}
+			.evento-img{
+				width: 100%;
+				padding:10px 0px;
+			}
+			.evento-descr{
+				font-size: 12px;
+			}
+
+			.proximamente-div{
+				border:1px solid white;
+			}
+
+			.trailer-div{
+				border:1px solid white;
+			}
+
+			li{
+				margin: 6px 0px;
+			}
+
+			.trailer-img{
+				margin:0px 10px
+			}
+
+
+		</style>
+
+	</head>
+	<body>
+		<header id="home">
+			<img class="logo" alt="logo" src="webroot/logo/logo.png">
+			
+		
+		<nav>
+			<ul>
+				<li> <a href="#home"> Inicio </a></li>
+				<li> <a href="#cartelera"> Cartelera </a></li>
+				<li> <a href="#eventos"> Eventos </a></li>
+				<li> <a href="#proximamente"> Próximamente </a></li>
+				<li> <a href="contacto.html"> Contacto </a></li>
+			</ul>
+		</nav>
+		</header>
+		
+		<main>
+			<div class="slide-div">
+				<img class="slide" src="webroot/slide/ES_970X250-1.jpg">
+			</div>
+			<section id="cartelera">
+				<h2>
+					Cartelera
+				</h2>
+				<div class="pelicula-grid">
+					<div class="pelicula-div">
+						<img src="webroot/images/BAHIA-WEB.jpg" alt="Bahia 1625" class="pelicula-img">
+						<p class="pelicula-txt">
+							Bahia 1625. Jueves 4 de diciembre
+						</p>
+					</div>
+					<div class="pelicula-div">
+						<img src="webroot/images/COARTADAS-CARTELWEB.jpg" alt="Coartadas" class="pelicula-img">
+						<div class="pelicula-txt">
+							Coartadas. Jueves 4 de diciembre
+						</div>
+					</div>
+					<div class="pelicula-div">
+						<img src="webroot/images/dracula-WEB.jpg" alt="Dracula" class="pelicula-img">
+						<div class="pelicula-txt">
+							Dracula. Jueves 4 de diciembre
+						</div>
+					</div>
+					<div class="pelicula-div">
+						<img src="webroot/images/LA-VOZ-DE-HIND-WEB.jpg" alt="La Voz de Hind" class="pelicula-img">
+						<div class="pelicula-txt">
+							La Voz de Hind. Jueves 4 de diciembre
+						</div>
+					</div>
+					<div class="pelicula-div">
+						<img src="webroot/images/punales-WEB.jpg" alt="Puñales" class="pelicula-img">
+						<div class="pelicula-txt">
+							Puñales
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="lowermain-div">
+				<div class="eventos-div" id="eventos">
+					<h2>
+						Eventos
+					</h2>
+					<div class="evento-grid">
+						<div class="evento-singular">
+							<h3>
+								EVENTO
+							</h3>
+							<img class="evento-img" alt="La Traviata" src="webroot/eventos/La-Traviata_WEB.jpg" >
+							<div class="evento-descr">
+								Opera en directo: La Traviata. Miercoles 14 de enero a las 19:45
+							</div>
+						</div>
+						<div class="evento-singular">
+							<h3>
+								EVENTO
+							</h3>
+							<img class="evento-img" alt="El Cascanueces" src="webroot/eventos/cartel-preventa_RBO_El-Casacanueces.jpg" >
+							<div class="evento-descr">
+								Ballet en directo: El Cascanueces. Miercoles 10 de diciembre a las 20:15
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="proximamente-div" id="proximamente">
+					<h2>
+						Próximamente
+					</h2>
+					<ul>
+						<li> Avatar	</li>
+						<li> Hamnet	</li>
+						<li> Goonies	</li>
+						<li> Mario Galaxy	</li>
+					</ul>
+				</div>
+
+				<div class="trailer-div" id="trailers">
+					
+					<h2>
+						Trailers
+					</h2>
+					<a href="webroot/media/El Cascanueves.mp4">
+						<img src="webroot/trailers/ElCascanueves.jpg" alt="El Cascanueces Trailer" class="trailer-img">
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<address>
+				<p class="foo-txt">
+					© 2026 <span ><a class="miweb-link" href="../../index.html" >Juan Miguel Dominguez.</a></span> Todos los derechos reservados.
+				</p>
+			</address>
+		</footer>
+	</body>
+</html>

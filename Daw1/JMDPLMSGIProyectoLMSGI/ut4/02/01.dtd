@@ -1,0 +1,26 @@
+<!ELEMENT mail (remitente, destinatarios, fecha,asunto?, mensaje,ficherosAdjuntos?)>
+<!ATTLIST mail xmlns:xsi CDATA #REQUIRED
+            xsi:noNamespaceSchemaLocation CDATA #REQUIRED>
+
+<!ELEMENT destinatarios (destinatario+)>
+<!ELEMENT destinatario (#PCDATA)>
+
+<!ELEMENT fecha (dia, mes, anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+
+<!ELEMENT mensaje ( h2 | h3 | p | ul)*>
+<!ELEMENT h2 (#PCDATA)>
+<!ELEMENT h3 (#PCDATA)>
+<!ELEMENT ul (li+)>
+<!ELEMENT li (#PCDATA | strong)*>
+<!ELEMENT p (#PCDATA | strong)*>
+<!ELEMENT strong (#PCDATA)>
+
+<!ELEMENT ficherosAdjuntos (fichero*)>
+<!ELEMENT fichero (nombre, tipoMime)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tipoMime (#PCDATA)>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>

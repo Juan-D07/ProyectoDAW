@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      UT2.09 Juan Miguel Dominguez
+    </title>
+    <link rel="stylesheet" href="../../webroot/font/Roboto-VariableFont_wdth,wght.ttf">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../webroot/css/style.css">
+ 		<link rel="icon" href="images/icons8-favicon-48.png" type="image/png">
+
+    <style>
+
+      body{
+        background-color: #FFFFFF;
+        box-shadow: 0px 13px 10px black;
+      }
+
+      .header{
+        background-color: #FFFFFF;
+        border-bottom: 2px solid rgb(211, 211, 211);
+        box-shadow: 0px 3px 8px rgb(0, 0, 0,0.2);
+      }
+
+      h3{
+        color:black;
+        font-size: 20px;
+        margin-top: 6px;
+      }
+      h2{
+        font-size: 30px;
+        color:black;
+      }
+
+      main{
+        padding: 20px 10px 20px 0;
+        display: flex;
+      }
+
+      aside{
+        height: 100%;
+        width:200px;
+        padding: 20px;
+      }
+
+      .grid-div{
+        display: grid;
+        grid-template-columns: 28vw 28vw 28vw;
+        gap:10px
+        
+      }
+
+      .square-div{
+        background-color: #FFFFFF;
+        border: 2px solid rgb(187, 187, 187);
+        padding: 6px;
+        border-radius: 6px;
+      }
+
+      .square-img{
+        width: 100%;
+        border-radius: 6px;;
+      }
+
+      .fecha{
+        text-align:right;
+      }
+
+      ul{
+        list-style:none;
+      }
+
+      li{
+        margin-bottom:30px
+      }
+
+      ul li:nth-child(1){
+        text-decoration: underline;
+        font-weight: 700;
+      }
+
+      li:hover{
+        cursor: pointer;
+      }
+
+      .footer{
+        margin-top: auto;
+        background-color: #FFFFFF;
+        border-top: 2px solid rgb(211, 211, 211);
+        box-shadow: 0px -3px 8px rgb(0, 0, 0,0.2);
+      }
+
+      .footer p{
+        color: black;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <h2 >Maquetación con Grid</h2>
+      <h3> Vamos a aprender</h3>
+
+    </header>
+
+    <main>
+      <aside>
+        <ul>
+          <li> Inicio</li>
+          <li> Galeria</li>
+          <li> Productos</li>
+          <li> Clientes</li>
+          <li> Contacto</li>
+        </ul>
+      </aside>
+
+      <div class="grid-div">
+        <div class="square-div">
+          <img  class="square-img" src="images/1.jpg" alt="Imgen carro autonomo">
+          <p><strong>Proyecto de vehículo autónomo: 12 pasajero, ningún conductor</strong></p>
+          <p class="fecha"> 20 marzo 2025</p>
+        </div>
+        <div class="square-div">
+          <img  class="square-img" src="images/2.jpg" alt="i magen carro reciclage">
+          <p><strong>Reciclarse y obtenre dps puntos en uno</strong></p>
+          <p class="fecha">30 marzo 2025</p>
+        </div>
+        <div class="square-div">
+          <img  class="square-img" src="images/3.jpg" alt="Imagen alerta ciberdelicuente">
+          <p><strong>¡Aelrta! Los ciberdelicuentes no descansan</strong></p>
+          <p class="fecha">20 marzo 2025</p>
+        </div>
+        <div class="square-div">
+          <img  class="square-img" src="images/4.jpg" alt="Imagen examen teorico">
+          <p><strong>Examen téorico: la importancia de conocer el riesgo</strong></p>
+          <p class="fecha">20 marzo 2025</p>
+        </div>
+        <div class="square-div">
+          <img  class="square-img" src="images/5.jpg" alt="Imagen car b turismo">
+          <p><strong>La car B del turismo 'on the road'</strong></p>
+          <p class="fecha"> 20 marzo 2025</p>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <p class="derechos">
+        © 2026 DAW1. <span ><a class="miweb-link" href="../../index.html" >Juan Miguel Dominguez</a></span>. Todos los derechos reservados.
+      </p>
+      <p class="modificacion">
+        Última modificación: 15 de Abril de 2026, 09:00
+      </p>        
+    </footer>
+    
+  </body>
+  
+</html>

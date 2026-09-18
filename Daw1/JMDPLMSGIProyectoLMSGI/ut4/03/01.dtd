@@ -1,0 +1,8 @@
+<!ELEMENT programingLanguges (languaje+)>
+<!ATTLIST programingLanguges xmlns:xsi CDATA #IMPLIED
+                            xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT languaje (description, example)>
+
+<!ATTLIST languaje name ID #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT example (#PCDATA)>

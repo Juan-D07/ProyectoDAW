@@ -1,0 +1,29 @@
+{
+  "Lenguejes":[
+
+   {
+    "LenguajeProgramacion": "JavaScript",
+    "Año":1995,
+    "nombreAutores": ["Brendan"],
+    "Compilado": false
+   },
+   {
+    "LenguajeProgramacion": "Java",
+    "Año":1995,
+    "nombreAutores": ["Gosling","Sheridan","Naughton"],
+    "Compilado": true
+   },
+   {
+    "LenguajeProgramacion": "Python",
+    "Año":1991,
+    "nombreAutores": ["Guido"],
+    "Compilado": true
+   },
+   {
+    "LenguajeProgramacion": "C++",
+    "Año":1979,
+    "nombreAutores": ["Bjarne"],
+    "Compilado": true
+   }
+  ]
+}

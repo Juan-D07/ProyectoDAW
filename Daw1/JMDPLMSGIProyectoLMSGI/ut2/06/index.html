@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    UT2.06 Juan Miguel Dominguez
+  </title>
+  <link rel="stylesheet" href="../../webroot/font/Roboto-VariableFont_wdth,wght.ttf">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../../webroot/css/style.css">
+
+  <style>
+
+    .line1{
+      background-color: #4f9db7;
+    }
+
+    body {
+      background-color: rgb(29, 29, 29);
+      color: white;
+    }
+
+    .cuerpo-exte{
+      background-color: rgb(29, 29, 29);
+      /* width: 600px;
+      align-self: center; */
+      margin: 0 100px;
+      
+    }
+
+    .contenedor-boton{
+      display: flex;
+      gap:20px;
+      border:none;
+      margin: 30px 20px 20px 20px;
+      padding: 0;
+    }
+
+    .contenedor {
+      margin: 30px auto 0px auto;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      padding: 20px;
+      border-radius: 8px;
+      border: 2px solid #4f9db7;    
+    }
+
+    div {
+      margin: 10px;
+      border-bottom: 2px solid #4f9db7;
+      padding: 10px;
+    }
+
+    .lista {
+      margin: 10px;
+      border: none;
+    }
+
+    fieldset {
+      border: none;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .trans-div {
+      margin: 0px;
+      display: flex;
+      gap: 40px;
+    }
+
+    input,
+    select,
+    textarea {
+      border-radius: 4px;
+      border: 1px solid rgb(156, 156, 156);
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="tel"],
+    input[type="url"],
+    input[type="number"],
+    input[type="email"],
+    select {
+      padding: 8px
+    }
+
+    input[type="file"] {
+      border: none;
+      margin-top: 10px;
+    }
+
+    input[type="color"] {
+      height: 50px;
+      width: 50px;
+    }
+
+    input[type="text"]:hover,
+    input[type="date"]:hover,
+    input[type="tel"]:hover,
+    input[type="url"]:hover,
+    input[type="number"]:hover,
+    input[type="email"]:hover,
+    select:hover,
+    textarea:hover {
+      background-color: rgb(190, 234, 247);
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #4f9db7;
+      color: white;
+      border: none;
+      padding: 16px;
+      flex:1;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 40px;
+      margin-top: 10px;
+      padding: 6px;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"],
+    input[type="range"] {
+      accent-color: rgb(173, 227, 244);
+
+    }
+
+    footer {
+      margin-top: auto;
+    }
+
+    .lista {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="line1">Formulario 2</div>
+  </header>
+
+  <main class="cuerpo-exte">
+    <form>
+      <div class="contenedor">
+        <h2>
+          Cancion
+        </h2>
+        <div>
+          <label for="idcancion">Nombre del Cancion: </label>
+          <input type="text" name="cancion" id="idcancion" maxlength="50" required>
+        </div>
+
+        <div>
+          <label for="idnombre">Nombre del Album: </label>
+          <input type="text" name="nombre" id="idnombre" maxlength="50" required>
+        </div>
+
+        <div>
+          <label for="idfecha">Fecha del Album: </label>
+          <input type="date" name="fecha" id="idfecha" required>
+        </div>
+
+        <div>
+          <label for="idautor">Nombre del Autor: </label>
+          <input type="text" name="Autor" id="idautor" maxlength="50" required>
+        </div>
+
+        <div>
+          <fieldset>
+            <legend>
+              <label>Tipo de Autor(es): </label>
+              <div class="lista">
+                <label for="individual"> <input type="radio" name="tipoautor" id="individual" required>
+                  Individual</label>
+                <label for="duo"> <input type="radio" name="tipoautor" id="duo"> Duo</label>
+                <label for="trio"> <input type="radio" name="tipoautor" id="trio"> Trio</label>
+                <label for="mastres"> <input type="radio" name="tipoautor" id="mastres"> Mas de tres</label>
+                <label for="grupo"> <input type="radio" name="tipoautor" id="grupo"> Grupo</label>
+                <label for="coro"> <input type="radio" name="tipoautor" id="coro"> Coro</label>
+              </div>
+            </legend>
+          </fieldset>
+        </div>
+
+        <div>
+          <label for="idgenero"> Genero del Album: </label>
+          <select name="genero" id="idgenero">
+            <option value="pop"> Pop</option>
+            <option value="rock"> Rock</option>
+            <option value="reggeton"> Reggeton</option>
+            <option value="salsa"> Salsa</option>
+            <option value="electronica"> Electronica</option>
+            <option value="jazz"> Jazz</option>
+          </select>
+        </div>
+
+
+        <div>
+          <label for="idnombre">Duracion de la cancion (segundos): </label>
+          <input type="number" name="nombre" id="idnombre" min="30" required>
+        </div>
+
+        <div>
+          <fieldset>
+            <label for="audio"> Fuente Audio:</label>
+            <div class="lista">
+              <label for="autotune">
+                <input type="checkbox" id="autotune" name="extras" value="tiene_Extras"> Autotune
+              </label>
+              <label for="concierto">
+                <input type="checkbox" id="concierto" name="extras" value="tiene_Extras"> Concierto
+              </label>
+            </div>
+          </fieldset>
+        </div>
+
+
+
+        <div>
+          <label for="idnombre">Calidad de la cancion (Horrile-Increible): </label>
+          <div class="lista">
+            <input type="range" name="nombre" id="idnombre" min="1" max="10" step="1" value="5">
+
+          </div>
+        </div>
+
+
+
+        <div>
+          <label for="comentario"> Descripcion:</label>
+          <div class="lista">
+            <textarea name="comentario" rows="5" cols="46" placeholder="Escriba la descripcion de su cancion"
+              id="comentario"></textarea>
+          </div>
+        </div>
+
+        <div>
+          <label for="idmusica">Archivo de la cancion: </label>
+          <div class="lista">
+            <input type="file" name="musica" id="idmusica">
+          </div>
+        </div>
+
+        <div>
+          <label for="idimagen">Imagen del Album: </label>
+          <div class="lista">
+            <input type="file" name="imagen" id="idimagen">
+          </div>
+          </div>
+      </div>
+      <div class="contenedor">
+        <h2>
+          Editorial
+        </h2>
+
+        <div>
+          <label for="idfullname">Nombre Editorial: </label>
+          <input type="text" name="fullname" id="idfullname" maxlength="50" minlength="5" required>
+        </div>
+
+        <div>
+          <label for="idemail">Correo electronico: </label>
+          <input type="email" name="email" id="idemail" maxlength="50" minlength="5" required>
+        </div>
+
+        <div>
+          <label for="idphone">Telefono: </label>
+          <input type="tel" name="phone" id="idphone" maxlength="50" minlength="5" required>
+        </div>
+
+        <div>
+          <label for="idlugar">Lugar: </label>
+          <input type="text" name="lugar" id="idlugar" maxlength="50" minlength="5" required>
+        </div>
+
+        <div>
+          <label for="idweb">Pagina Web: </label>
+          <input type="url" name="web" id="idweb" maxlength="50" minlength="5" required>
+        </div>
+      </div>
+      <div class="contenedor-boton">
+        <input type="submit" value="Publicar Cancion" id="enviar">
+        <input type="reset" value="Restablecer Campos" id="restablecer">
+      </div>
+    </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p class="derechos">
+      © 2025 DAW1. Juan Miguel Dominguez. Todos los derechos reservados.
+    </p>
+    <p class="modificacion">
+      Última modificación: 30 de enero de 2026, 09:09
+    </p>
+    <div class="botones">
+      <a class="boton2" href="../../index.html#Unidad2">
+        <img src="images/casa1.png" class="casa" alt="logo casa">
+
+      </a>
+      <a class="boton1"
+        href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmdomper.ieslossauces.es%2Fut2%2F05%2Findex.html">
+        <img src="images/W3C®_Icon.svg.png" class="validador" alt="logo validador">
+      </a>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>

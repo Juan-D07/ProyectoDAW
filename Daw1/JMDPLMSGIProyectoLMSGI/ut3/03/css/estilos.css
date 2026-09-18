@@ -1,0 +1,116 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color:white;
+    margin:0;
+    padding:0;
+    background-color: rgb(18, 18, 18);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+  font-family: Roboto, arial;
+}
+
+header{
+    background-color: black;
+    height:80px;
+    align-content: center;
+    
+}
+
+h1{
+    text-align: center;
+    margin:0;
+    font-size:40px;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+h2{
+  font-size: 34px;
+
+}
+
+ul{
+  margin-bottom: 40px;
+}
+
+li{
+    margin:6px 0;
+    padding:6px;
+    font-size: 24px;
+    border-radius: 6px;
+}
+
+li:hover{
+  background-color: rgb(68, 68, 68);
+  cursor: pointer;
+}
+
+.seleccionado{
+  background-color: rgb(68, 68, 68);
+}
+
+.ocultado{
+  opacity:0;
+  visibility: hidden;
+  background-color: none;
+}
+
+#boton{
+    padding:10px 16px;
+    background-color: black;
+    border:none;
+    color:white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+#boton:hover{
+    cursor:pointer;
+    background-color: rgb(68, 68, 68);
+    color:rgb(255, 255, 255);
+}
+
+footer{
+    margin-top: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0px 4px 0;
+    font-style: italic;
+}
+
+span a{
+  color: white;
+  text-decoration: none;
+}
+span a:hover{
+  text-decoration: underline;
+}
+
+
+.derechos-txt{
+  padding:10px
+}
+
+.botones{
+  height:50px;
+}
+
+.boton{
+  height: 100%;
+}

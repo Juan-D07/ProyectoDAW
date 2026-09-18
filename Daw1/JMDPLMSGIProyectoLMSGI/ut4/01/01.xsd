@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="biblioteca">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="libro" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo">
+                                <xs:annotation>
+                                    <xs:documentation> Numero maxiomo de caracters en el titulo es 50</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:maxLength value="50"></xs:maxLength>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="autores">
+                                <xs:complexType>
+                                    <xs:choice maxOccurs="unbounded">
+                                        <xs:element name="autor">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nombre" type="xs:string"/>
+                                                    <xs:element name="apellido" type="xs:string"/>
+                                                    <xs:element name="nacionalidad" type="xs:string" default="España"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="año" type="xs:gYear"/>
+
+                        </xs:sequence>
+                        <xs:attribute name="idLibro" type="xs:ID" use="required"/>
+                        <xs:attribute name="refLibro" type="xs:IDREFS"/>
+                        <xs:attribute name="genero" type="xs:string" use="optional"/>
+                        <xs:attribute name="idioma" type="xs:string" use="optional" default="Español"/>
+                        <xs:attribute name="formato" default="impreso">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="impreso"/>
+                                    <xs:enumeration value="digital"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

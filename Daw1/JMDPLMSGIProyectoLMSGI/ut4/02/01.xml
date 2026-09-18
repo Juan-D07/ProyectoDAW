@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mail SYSTEM "01.dtd">
+
+
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01.xsd">
+  <remitente>
+    juanmdom@yahoo.com
+  </remitente>
+  <destinatarios>
+    <destinatario> amor@hotmail.com</destinatario>
+    <destinatario> claudio@eracl.io</destinatario>
+  </destinatarios>
+  <fecha>
+    <dia> ---17</dia>
+    <mes> --02 </mes>
+    <anio> 2017</anio>
+  </fecha>
+  <asunto> Cena Navidenaña</asunto>
+  <mensaje>
+    <h2> Formal Invitacion a Cena Navidenaña</h2>
+
+    <p> querido <strong> compañer@</strong>:</p>
+
+    <p>Estas cordealmente invitado a mi <strong>Cena Navidenaña</strong></p>
+
+    <h3>
+      Detalles del evento:
+    </h3>
+    <ul>
+      <li>
+        <strong>Fecha:</strong> Manaña
+      </li>
+      <li>
+        <strong>Hora:</strong> por la noche
+      </li>
+      <li>
+        <strong>Lugar:</strong> mi casa
+      </li>
+    </ul>
+
+    <p> te adjunto un par de cosillas, <strong>Gracias! Chao... cha-cha-cha-chao</strong></p>
+  </mensaje>
+
+  <ficherosAdjuntos>
+    <fichero>
+      <nombre> video_cena.mp4</nombre>
+      <tipoMime>video/mp4</tipoMime>
+    </fichero>
+    <fichero>
+      <nombre> foto_mia.png</nombre>
+      <tipoMime>image/png</tipoMime>
+    </fichero>
+  </ficherosAdjuntos>
+</mail>

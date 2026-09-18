@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      UT2.08 Juan Miguel Dominguez
+    </title>
+    <link rel="stylesheet" href="../../webroot/font/Roboto-VariableFont_wdth,wght.ttf">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../webroot/css/style.css">
+
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Anton&family=Vina+Sans&display=swap');
+
+      body{
+        background-color: rgb(236, 236, 236);
+        font-family:Arial, Helvetica, sans-serif
+      }
+
+      main{
+        margin: 20px;
+        text-align: center;
+      }
+
+      h2{
+        background-color: blue;
+        color:white;
+        border: 1px solid black;
+        padding:6px;
+        font-size: 40px;
+        box-shadow: 4px 4px 1px rgb(0, 0,0,1);
+        width: 450px;
+        margin: 0 auto;
+      }
+
+      h3{
+        padding:6px;
+        font-size: 36px;
+      }
+
+      .grid-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+      }
+
+      .div1, .div2, .div3, .div4{
+        align-items: center;
+        text-align: center;
+        padding: 40px;
+      }
+
+      .div1, .div2{
+        border: 6px solid black;
+      }
+
+      .div1{
+        background-color: rgb(135, 48, 162);
+      }
+
+      .div2{
+        background-color: orange;
+      }
+
+      h4{
+        border: 1px solid black;
+        padding:6px;
+        font-size: 20px;
+        box-shadow: 4px 4px 1px rgb(0, 0,0,1);
+        margin: 10px auto 50px auto;
+      }
+      table{
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+
+      li span{
+        color: red;
+        font-weight: 700;
+      }
+
+      thead{
+        background-color: seagreen;
+      }
+
+      tbody{
+        background-color: white;
+      }
+
+      th, td{
+        padding:4px 8px;
+      }
+
+      tr{
+        border: 2px solid black;
+      }
+
+      .div1 h4{
+        background-color: yellow;
+        transform: rotate(10deg);
+        width:240px
+      }
+      .div2 h4{
+        background-color: rgb(0, 247, 255);
+        transform: rotate(350deg);
+        width:200px
+      }
+      .div4 h4{
+        background-color: rgb(68, 255, 0);
+        transform: rotate(10deg);
+        width:200px
+      }
+
+      .div3 h4{
+        background-color: rgb(255, 0, 115);
+        transform: rotate(350deg);
+        width:90px
+      }
+
+      .div4 ul{
+        margin: 0 auto;
+        width:210px;
+        text-align: left;
+        
+      }
+
+      li {
+        margin-bottom: 4px;
+      }
+
+      .div3 ul{
+        margin: 0 auto;
+        width:160px;
+        list-style:none
+      }
+
+      footer{
+        margin-top: auto;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="line1">Fuentes</div>
+    </header>
+
+    <main>
+      <section>
+        <h2>
+          Buenos días campeon!
+        </h2>
+        <h3>
+          Momento de aprovechar el Día 🌞
+        </h3>
+        <div class="grid-div">
+          <div class="div1">
+            <h4>
+              Programacion Semanal
+            </h4>
+            <table>
+              <thead>              
+                <tr>
+                  <th>Dia</th>
+                  <th>Ejercicio Programado</th>
+                  <th>Tiempo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lunes</td>
+                  <td>Correr</td>
+                  <td>6:00 AM</td>
+
+                </tr>
+                <tr>
+                  <td>Martes</td>
+                  <td>Natación</td>
+                  <td>7:00 AM</td>
+
+                </tr>
+                <tr>
+                  <td>Miercóles</td>
+                  <td>Ciclismo</td>
+                  <td>5:30 AM</td>
+
+                </tr>
+                <tr>
+                  <td>Jueves</td>
+                  <td>Yoga</td>
+                  <td>6:00 AM</td>
+
+                </tr>
+                <tr>
+                  <td>Viernes</td>
+                  <td>Pesas</td>
+                  <td>8:00 AM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="div2">
+            <h4>
+              Ultimos 5 Ejercicios
+            </h4>
+            <table>
+              <thead>              
+                <tr>
+                  <th>Ejercicios</th>
+                  <th>Duracion</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Correr</td>
+                  <td>30 min</td>
+                </tr>
+                <tr>
+                  <td>Nadar</td>
+                  <td>45 min</td>
+
+                </tr>
+                <tr>
+                  <td>Ciclismo</td>
+                  <td>60 min</td>
+                </tr>
+                <tr>
+                  <td>Yoga</td>
+                  <td>40 min</td>
+
+                </tr>
+                <tr>
+                  <td>Pesas</td>
+                  <td>50 min</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="div3">
+            <h4>
+              Calorias
+            </h4>
+            <ul>
+              <li> <span>Hoy: </span> 500</li>
+              <li> <span>Esta semana: </span> 3500</li>
+              <li> <span>este mes: </span> 14000</li>
+            </ul>
+          </div>
+          <div class="div4">
+            <h4>
+              Records Personales
+            </h4>
+            <ul>
+              <li> Más rápido 5k Correr: 22 min</li>
+              <li> Pesos más pesados: 250 lbs</li>
+              <li> Tabla más larga: 3 min</li>
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="derechos">
+        © 2026 DAW1. Juan Miguel Dominguez. Todos los derechos reservados.
+      </p>
+      <p class="modificacion">
+        Última modificación: 18 de Marzo de 2026, 09:09
+      </p>
+      <div class="botones">
+        <a class="boton2" href="../../index.html#Unidad2">
+          <img src="images/casa1.png" class="casa" alt="logo casa">
+        
+        </a>
+        <a class="boton1" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjuanmdomper.ieslossauces.es%2Fut2%2F05%2Findex.html">
+          <img src="images/W3C®_Icon.svg.png" class="validador" alt="logo validador">
+        </a>
+        
+      </div>
+    </footer>
+    
+  </body>
+  
+</html>

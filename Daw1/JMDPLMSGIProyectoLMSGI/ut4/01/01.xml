@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE biblioteca SYSTEM "01.dtd">
+<!-- XML Almacena Datos -->
+
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01.xsd">
+
+    <libro idLibro="l1" formato="digital" genero="Aventura">
+        <titulo>Wigetta</titulo>
+        <autores>
+            <autor>
+                <nombre> Samuel</nombre>
+                <apellido> De Luque</apellido>
+                <nacionalidad> Española</nacionalidad>
+            </autor>
+            <autor>
+                <nombre> Guillermo</nombre>
+                <apellido> Diaz</apellido>
+                <nacionalidad> Española</nacionalidad>
+            </autor>
+        </autores>
+        <año>2015</año>
+
+    </libro>
+
+    <libro idLibro="l2" genero="Autohumillacion">
+        <titulo>El Libro Troll</titulo>
+        <autores>
+            <autor>
+                <nombre> Ruben</nombre>
+                <apellido> Doblas</apellido>
+                <nacionalidad> Española</nacionalidad>
+            </autor>
+        </autores>
+        <año>2014</año>
+
+    </libro>
+
+    <libro idLibro="l3" idioma="Koreano" genero="Restrospectivo">
+        <titulo>Luna de Pluton</titulo>
+        <autores>
+            <autor>
+                <nombre> Dross</nombre>
+                <apellido> Xd</apellido>
+                <nacionalidad> Venezolano</nacionalidad>
+            </autor>
+        </autores>
+        <año>2016</año>
+
+
+    </libro>
+
+    <libro idLibro="l4" idioma="Koreano" refLibro="l3">
+        <titulo>Luna de Jupiter</titulo>
+        <autores>
+            <autor>
+                <nombre> Yo</nombre>
+                <apellido> Mismo</apellido>
+                <nacionalidad> Venezolano</nacionalidad>
+            </autor>
+        </autores>
+        <año>2017</año>
+
+
+    </libro>
+
+
+
+</biblioteca>

@@ -1,0 +1,102 @@
+{
+  "actividades":[
+
+   {
+    "codigo": "C01",
+    "nivel":"infantil",
+    "titulo": "Descubrimiento acuático",
+    "fecha_inicio": "2019-01-10",
+    "intensidad":"suave",
+    "sesiones": {
+        "minutos_sesion": 30,
+        "sesiones_semana": 2
+    }
+        
+  },
+  {
+    "codigo": "C02",
+    "nivel":"juvenil",
+    "titulo": "Natación técnica",
+    "fecha_inicio": "2019-02-05",
+    "intensidad":"suave",
+    "sesiones": {
+        "minutos_sesion": 30,
+        "sesiones_semana": 2
+    }
+        
+  },
+  {
+    "codigo": "C03",
+    "nivel":"adultos",
+    "titulo": "Entrenamiento funcional acuático",
+    "fecha_inicio": "2019-03-12",
+    "intensidad":"fuerte",
+    "sesiones": {
+        "minutos_sesion": 60,
+        "sesiones_semana": 4
+    }
+        
+  },
+  {
+    "codigo": "C04",
+    "nivel":"adultos",
+    "titulo": "Rehabilitación en piscina",
+    "fecha_inicio": "2019-04-01",
+    "intensidad":"suave",
+    "sesiones": {
+        "minutos_sesion": 40,
+        "sesiones_semana": 3
+    }
+        
+  },
+  {
+    "codigo": "C05",
+    "nivel":"infantil",
+    "titulo": "Juegos y coordinación en el agua",
+    "fecha_inicio": "2019-05-20",
+    "intensidad":"moderada",
+    "sesiones": {
+        "minutos_sesion": 45,
+        "sesiones_semana": 2
+    }
+        
+  },
+  {
+    "codigo": "C06",
+    "nivel":"juvenil",
+    "titulo": "Salvamento acuático básico",
+    "fecha_inicio": "2019-06-15",
+    "intensidad":"fuerte",
+    "sesiones": {
+        "minutos_sesion": 50,
+        "sesiones_semana": 3
+    }
+        
+  },
+  {
+    "codigo": "C07",
+    "nivel":"adultos",
+    "titulo": "Aqua yoga",
+    "fecha_inicio": "2019-07-10",
+    "intensidad":"suave",
+    "sesiones": {
+        "minutos_sesion": 35,
+        "sesiones_semana": 2
+    }
+        
+  },
+  {
+    "codigo": "C08",
+    "nivel":"adultos",
+    "titulo": "Resistencia y cardio en agua",
+    "fecha_inicio": "2019-08-25",
+    "intensidad":"fuerte",
+    "sesiones": {
+        "minutos_sesion": 65,
+        "sesiones_semana": 4
+    }
+        
+  }
+  ]
+
+}

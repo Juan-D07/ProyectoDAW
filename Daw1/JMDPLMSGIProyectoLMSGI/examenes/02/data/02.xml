@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tarjetaVisita
+    id="tv001"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="02.xsd">
+
+
+    <nombre>
+        Juan Miguel Dominguez
+    </nombre>
+    <cargo>
+        Diseñador UI
+    </cargo>
+    <empresa>
+        Studios SL
+    </empresa>
+    <logotipo formato="png" descripcion="imagen">
+        /images/foto.png
+    </logotipo>
+
+    <web>https://ies.losauces.com/juanmigueldominguez</web>
+
+    <redesSociales>
+        <linkedin> https://www.linkedin.com/in/juanmigueldominguez</linkedin>
+        <otro tipo="Intagram">https://www.instagram.com/juanmi2207</otro>
+    </redesSociales>
+    
+
+
+
+</tarjetaVisita>

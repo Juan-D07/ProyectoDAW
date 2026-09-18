@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE curriculum SYSTEM "01.dtd">
+
+<curriculum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01.xsd">
+  <datosPersonales>
+    <nombre>
+      Laura
+    </nombre>
+    <apellido>García Martínez</apellido>
+    <nacimineto>1998</nacimineto>
+    <residencia>
+      <ciudad>
+        Barcelona
+      </ciudad>
+      <pais>España</pais>
+    </residencia>
+  </datosPersonales>
+  <contacto>
+    <telefono>+34 612 345 678</telefono>
+    <correo>laura.garcia@email.com</correo>
+    <linkedin>https://www.linkedin.com/in/lauragarcia</linkedin>
+  </contacto>
+  <carrera>
+    <descripcion>Profesional del ámbito tecnológico con interés en el desarrollo web y la gestión de bases de datos.
+        Destaca por su capacidad de aprendizaje, trabajo en equipo y resolución de problemas.</descripcion>
+
+    <competencias>
+      <competencia>
+        <nombreCom>HTML</nombreCom>
+        <nivel>Avanzado</nivel>
+      </competencia>
+      <competencia>
+        <nombreCom>CSS</nombreCom>
+        <nivel>Intermedio</nivel>
+      </competencia>
+    </competencias>
+
+    <formaciones>
+      <formacion>
+        <titulacion>
+          Grado Superior en Desarrollo de Aplicaciones Web
+        </titulacion>
+        <centro>
+          IES Tecnológico Barcelona
+        </centro>
+        <fechaFin>2022</fechaFin>
+      </formacion>
+      <formacion>
+        <titulacion>
+          Curso de Desarrollo Frontend
+        </titulacion>
+        <centro>
+          Academia Digital Tech
+        </centro>
+        <fechaFin>2023</fechaFin>
+      </formacion>
+    </formaciones>
+
+    <experiencias>
+      <experiencia>
+        <puesto> Desarrolladora Web Junior</puesto>
+        <empresa>Tech Solutions S.L.</empresa>
+        <fechaIni>2023</fechaIni>
+        <fechaFinal>2024</fechaFinal>
+      </experiencia>
+      <experiencia>
+        <puesto> Prácticas de Desarrollo Web</puesto>
+        <empresa>Innovatech</empresa>
+        <fechaIni>2020</fechaIni>
+        <fechaFinal>2026</fechaFinal>
+      </experiencia>
+    </experiencias>
+  </carrera>
+</curriculum>
